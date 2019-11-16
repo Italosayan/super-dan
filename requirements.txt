@@ -1,4 +1,1 @@
-Flask
-connexion
-Flask-Injector
-fastavro
+requests
