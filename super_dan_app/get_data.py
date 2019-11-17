@@ -1,3 +1,7 @@
+"""
+This file requests the rochester crime data to the RPD-NY API.
+Then, formats the return to a consumable format.
+"""
 import requests
 import json
 from datetime import datetime
@@ -24,22 +28,20 @@ OUTPUT_FORMAT = "&outSR=4326&f=json"
 REQUEST_URL = URL_CRIME_60_DAYS + FIELDS_STRING + ",".join(FIELDS) + OUTPUT_FORMAT
 
 
-def crime_request_to_dict(url):
+def crime_data_request(url):
     """
     :param url: Format to access the rpdny API
     https://data-rpdny.opendata.arcgis.com/datasets/rpd-part-i-crime-60-days/geoservice
 
-    :return: Python dictionary of 60 days of crime data.
+    :return: Json data of 60 days of crime data.
     """
-    rochester_crime_data = requests.get(url)
-    rochester_crime_data = json.loads(rochester_crime_data.content)
-
-    return rochester_crime_data
+    rpd_answer = requests.get(url)
+    return rpd_answer
 
 
-def dict_to_data_frame(dict_data):
+def request_to_data_frame(json_data):
     """
-    :param dict_data: Request response in dictionary format
+    :param json_data: Request response in dictionary format
     :return: pandas data frame of one crime per row.
     """
     empty_geometry = {'x': None,
@@ -55,6 +57,7 @@ def dict_to_data_frame(dict_data):
                   'Larceny_Type': None,
                   'Location_Type': None}
 
+    dict_data = json.loads(json_data.content)
     attributes = [i['attributes'] if 'attributes' in i else empty_attr for i in dict_data['features']]
     geometry = [i['geometry'] if 'geometry' in i else empty_geometry for i in dict_data['features']]
 
@@ -71,8 +74,8 @@ def main():
     This file requests the rochester crime data to the RPD-NY API.
     Then, formats the return to a consumable format.
     """
-    roc_crimes = crime_request_to_dict(REQUEST_URL)
-    data_frame_roc_crimes = dict_to_data_frame(roc_crimes)
+    roc_crimes_response = crime_data_request(REQUEST_URL)
+    data_frame_roc_crimes = request_to_data_frame(roc_crimes_response)
     now = str(datetime.now())
     # TODO: Save data to S3 Bucket
     return now, data_frame_roc_crimes
