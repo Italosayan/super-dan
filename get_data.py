@@ -66,11 +66,17 @@ def dict_to_data_frame(dict_data):
     return data_frame_of_crimes
 
 
-if __name__ == '__main__':
+def main():
     """
-    This file requests the rochester crime data to the RPD-NY API. 
+    This file requests the rochester crime data to the RPD-NY API.
     Then, formats the return to a consumable format.
     """
     roc_crimes = crime_request_to_dict(REQUEST_URL)
     data_frame_roc_crimes = dict_to_data_frame(roc_crimes)
     now = str(datetime.now())
+    # TODO: Save data to S3 Bucket
+    return now, data_frame_roc_crimes
+
+
+if __name__ == '__main__':
+    main()
