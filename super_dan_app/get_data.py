@@ -1,6 +1,6 @@
 """
-This file requests the rochester crime data to the RPD-NY API.
-Then, formats the return to a consumable format.
+This file requests crime data to the RPD-NY API.
+Then turns the response to a consumable format(pandas dataframe).
 """
 import requests
 import json
@@ -30,7 +30,8 @@ REQUEST_URL = URL_CRIME_60_DAYS + FIELDS_STRING + ",".join(FIELDS) + OUTPUT_FORM
 
 def crime_data_request(url):
     """
-    :param url: Format to access the rpdny API
+    This function uses the REQUEST_URL to request data from the RPD API
+    :param url: Url format to access the RPD API
     https://data-rpdny.opendata.arcgis.com/datasets/rpd-part-i-crime-60-days/geoservice
 
     :return: Json data of 60 days of crime data.
@@ -41,6 +42,7 @@ def crime_data_request(url):
 
 def request_to_data_frame(json_data):
     """
+    This clean the response of the RPD API and puts it in pandas
     :param json_data: Request response in dictionary format
     :return: pandas data frame of one crime per row.
     """
@@ -71,8 +73,7 @@ def request_to_data_frame(json_data):
 
 def main():
     """
-    This file requests the rochester crime data to the RPD-NY API.
-    Then, formats the return to a consumable format.
+    First request then clean.
     """
     roc_crimes_response = crime_data_request(REQUEST_URL)
     data_frame_roc_crimes = request_to_data_frame(roc_crimes_response)
