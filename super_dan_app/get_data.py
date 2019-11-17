@@ -43,7 +43,7 @@ def crime_data_request(url):
 def request_to_data_frame(json_data):
     """
     This function cleans the response of the RPD API and puts it in a pandas dataframe
-    :param json_data: Request response in dictionary format
+    :param json_data: Request response in json format
     :return: pandas data frame of one crime per row.
     """
     empty_geometry = {'x': None,
