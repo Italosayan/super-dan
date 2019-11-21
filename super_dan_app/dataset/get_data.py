@@ -6,6 +6,7 @@ import requests
 import json
 from datetime import datetime
 import pandas as pd
+import os
 
 URL_CRIME_60_DAYS = "https://maps.cityofrochester.gov" \
                     "/arcgis/rest/services/RPD" \
@@ -89,6 +90,8 @@ def main():
     data_frame_roc_crimes = request_to_data_frame(roc_crimes_response)
     # Save
     now = str(datetime.now()).replace(" ", "|")
+    os.makedirs("super_dan_app/dataset/queried_data", exist_ok=True)
+
     file_path = f"super_dan_app/dataset/queried_data/{now}_crimes.csv"
     data_frame_roc_crimes.to_csv(file_path, index=False)
     return 0
