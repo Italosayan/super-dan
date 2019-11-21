@@ -1,4 +1,4 @@
-# super-dan
+# super_dan
 Don't go to that street today. 
 
 For development:
@@ -10,11 +10,16 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-Getting data and preprocess
+Each part of the pipeline is independent:
+
+* Getting the data
+* Data preprocess
+* Training
 
 ```
 python3 super_dan_app/dataset/get_data.py
 python3 super_dan_app/dataset/pre_processing.py
+python3 training/training.py
 ```
 
 For testing:
