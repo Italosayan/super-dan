@@ -7,7 +7,7 @@ import pandas as pd
 
 def data_pre_processing(df):
     """
-    Clean statute text. It will be the target variable
+    Clean statute text. Statute Text will be the target variable.
     Filter columns and return clean dataset
 
     :param df: raw data from get_data
@@ -36,8 +36,8 @@ def main():
     data_dir = dataset_module_path / temp_data_dir
 
     # Get all csv inside queried_data/
-    first_csv = list(data_dir.glob('*.csv'))
-    first_csv = str(first_csv[0])
+    all_csv = list(data_dir.glob('*.csv'))
+    first_csv = str(all_csv[0])
 
     data_frame_roc_crimes = pd.read_csv(first_csv)
 
