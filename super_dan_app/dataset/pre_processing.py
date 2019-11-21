@@ -1,8 +1,9 @@
 """
 Prepare for training the data requested by get_data.py
 """
-import pandas as pd
 from pathlib import Path
+import pandas as pd
+
 
 def data_pre_processing(df):
     """
