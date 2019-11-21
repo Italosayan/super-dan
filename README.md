@@ -27,3 +27,5 @@ For testing:
 ```
 python -m pytest
 ```
+
+contact : superdancontact@gmail.com
