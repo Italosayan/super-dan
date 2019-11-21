@@ -11,6 +11,7 @@ pip install -r requirements.txt
 ```
 
 Each part of the pipeline is independent:
+
 -Getting the data
 -Data preprocess
 -Training
