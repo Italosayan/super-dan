@@ -1,5 +1,5 @@
-from dataset import get_data
-from dataset import pre_processing
+from super_dan_app.dataset import get_data
+from super_dan_app.dataset import pre_processing
 
 
 class TestGetData:
