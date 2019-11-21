@@ -25,24 +25,27 @@ FIELDS = ["OBJECTID",
 
 OUTPUT_FORMAT = "&outSR=4326&f=json"
 
-REQUEST_URL = URL_CRIME_60_DAYS + FIELDS_STRING + ",".join(FIELDS) + OUTPUT_FORMAT
+REQUEST_URL = URL_CRIME_60_DAYS \
+              + FIELDS_STRING + \
+              ",".join(FIELDS) + \
+              OUTPUT_FORMAT
 
 
-def crime_data_request(url):
+def crime_data_request(url: str) -> requests.Response:
     """
     This function uses the REQUEST_URL to request data from the RPD API
     :param url: Url format to access the RPD API
     https://data-rpdny.opendata.arcgis.com/datasets/rpd-part-i-crime-60-days/geoservice
-
-    :return: Json data of 60 days of crime data.
+    :return: requests.Response data of 60 days of crime data.
     """
     rpd_answer = requests.get(url)
     return rpd_answer
 
 
-def request_to_data_frame(json_data):
+def request_to_data_frame(json_data: requests.Response) -> pd.DataFrame:
     """
-    This function cleans the response of the RPD API and puts it in a pandas dataframe
+    This function cleans the response of the RPD API and
+    puts it in a pandas data frame.
     :param json_data: Request response in json format
     :return: pandas data frame of one crime per row.
     """
@@ -60,26 +63,35 @@ def request_to_data_frame(json_data):
                   'Location_Type': None}
 
     dict_data = json.loads(json_data.content)
-    attributes = [i['attributes'] if 'attributes' in i else empty_attr for i in dict_data['features']]
-    geometry = [i['geometry'] if 'geometry' in i else empty_geometry for i in dict_data['features']]
+    attributes = [i['attributes'] if 'attributes' in i else empty_attr
+                  for i in dict_data['features']]
+
+    geometry = [i['geometry'] if 'geometry' in i else empty_geometry
+                for i in dict_data['features']]
 
     attributes = pd.DataFrame(attributes)
     geometry = pd.DataFrame(geometry)
 
-    data_frame_of_crimes = pd.concat([attributes, geometry], axis=1, sort=False)
+    data_frame_of_crimes = pd.concat([attributes, geometry],
+                                     axis=1,
+                                     sort=False)
 
     return data_frame_of_crimes
 
 
 def main():
     """
-    First request then clean.
+    First request, then clean and write to csv.
     """
+    # Request
     roc_crimes_response = crime_data_request(REQUEST_URL)
+    # Clean
     data_frame_roc_crimes = request_to_data_frame(roc_crimes_response)
-    now = str(datetime.now())
-    # TODO: Save data to S3 Bucket
-    return now, data_frame_roc_crimes
+    # Save
+    now = str(datetime.now()).replace(" ", "|")
+    file_path = f"super_dan_app/dataset/queried_data/{now}_crimes.csv"
+    data_frame_roc_crimes.to_csv(file_path, index=False)
+    return 0
 
 
 if __name__ == '__main__':
