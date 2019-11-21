@@ -33,6 +33,8 @@ def main():
     temp_data_dir = "queried_data/"
     dataset_module_path = Path(__file__).parent
     data_dir = dataset_module_path / temp_data_dir
+
+    # Get all csv inside queried_data/
     first_csv = list(data_dir.glob('*.csv'))
     first_csv = str(first_csv[0])
 
