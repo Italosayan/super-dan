@@ -12,9 +12,9 @@ pip install -r requirements.txt
 
 Each part of the pipeline is independent:
 
-*Getting the data
-*Data preprocess
-*Training
+* Getting the data
+* Data preprocess
+* Training
 
 ```
 python3 super_dan_app/dataset/get_data.py
