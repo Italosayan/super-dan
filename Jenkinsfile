@@ -6,7 +6,7 @@ pipeline {
                 sh 'python --version'
                 sh 'ls'
                 sh 'pwd'
-                sh 'python3 venv env'
+                sh 'python3 -m venv env'
                 sh 'ls'
                 sh 'source env/bin/activate'
                 sh 'pip install -r requirements.txt'
