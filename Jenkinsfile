@@ -9,7 +9,7 @@ pipeline {
                 sh 'python3 -m venv env'
                 sh 'ls'
                 sh '. env/bin/activate'
-                sh 'python -m pip install --user -r requirements.txt'
+                sh 'python -m pip install -r requirements.txt'
                 sh 'python super_dan_app/dataset/get_data.py'
             }
         }
