@@ -8,7 +8,7 @@ pipeline {
                 sh 'pwd'
                 sh 'python3 -m venv env'
                 sh 'ls'
-                sh 'source env/bin/activate'
+                sh '. env/bin/activate'
                 sh 'pip install -r requirements.txt'
                 sh 'python super_dan_app/dataset/get_data.py'
             }
