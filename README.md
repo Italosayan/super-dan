@@ -4,11 +4,14 @@ Don't go to that street today.
 For development:
 ```
 git clone https://github.com/Italosayan/super-dan.git
+export PYTHONPATH="/Users/path/to/super_dan":$PYTHONPATH
 cd super-dan
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+
+-Change PYTHONPATH to path where the project was cloned
 
 Each part of the pipeline is independent:
 
