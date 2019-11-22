@@ -28,7 +28,7 @@ class TestPreProcessData:
         Check number of features
         """
         data_for_training = pre_processing.main()
-        assert data_for_training.shape[1] == 7
+        assert data_for_training.shape[1] == 12
 
     def test_target_class_number(self):
         """
@@ -38,3 +38,17 @@ class TestPreProcessData:
         class_numb = data_for_training.Statute_Text.nunique(dropna=False)
 
         assert class_numb == 2
+
+    def test_drop_na(self):
+        """
+        Check the number of NA rows
+        """
+        data_frame_roc_crimes = pre_processing.read_data()
+        features_target = pre_processing.setting_features_and_target(data_frame_roc_crimes)
+        features_target = pre_processing.dummy_location_type_variable(features_target)
+
+        row_count_before_na = features_target.shape[0]
+        features_target = pre_processing.na_values(features_target)
+        row_count_after_na = features_target.shape[0]
+
+        assert row_count_before_na - row_count_after_na < 100

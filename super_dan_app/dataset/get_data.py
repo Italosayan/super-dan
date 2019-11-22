@@ -83,6 +83,7 @@ def request_to_data_frame(json_data: requests.Response) -> pd.DataFrame:
 def main():
     """
     First request, then clean and write to csv.
+    Dataframe is ready for preprocessing
     """
     # Request
     roc_crimes_response = crime_data_request(REQUEST_URL)
