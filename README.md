@@ -11,7 +11,7 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
--Change PYTHONPATH to path where the project was cloned
+-Change "/Users/path/to/super_dan" to path where the project was cloned
 
 Each part of the pipeline is independent:
 
