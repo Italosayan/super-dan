@@ -6,4 +6,6 @@ RUN apt-get update && apt-get -y install cmake
 RUN pip install -U pip
 RUN pip install -r /tmp/requirements.txt
 
-COPY . /super_dan_app
+COPY . /super_dan
+
+CMD echo "Hello world"
