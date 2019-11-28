@@ -53,7 +53,7 @@ def setting_features_and_target(df: pd.DataFrame) -> pd.DataFrame:
 
 def read_data() -> pd.DataFrame:
     """
-    Read data from queried_data/
+    Read the first csv from queried_data/
     :return: read csv
     """
     temp_data_dir = "queried_data/"
