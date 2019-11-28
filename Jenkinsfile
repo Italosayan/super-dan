@@ -9,8 +9,8 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'python3 super_dan_app/dataset/get_data.py'
-                sh 'python3 super_dan_app/dataset/pre_processing.py'
+                sh 'python super_dan_app/dataset/get_data.py'
+                sh 'python super_dan_app/dataset/pre_processing.py'
                 sh 'python -m training.training'
             }
         }
