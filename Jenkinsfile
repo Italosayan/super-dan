@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
+                sh 'ls super_dan_app/dataset/queried_data'
                 sh 'python --version'
                 sh 'python -m pytest'
                 sh 'ls super_dan_app/dataset/queried_data'
