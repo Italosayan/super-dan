@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from joblib import dump
 from pathlib import Path
 
+
 def main():
     """
     Train dummy classifier and random forest
@@ -25,11 +26,13 @@ def main():
 
     classifier = RandomForestClassifier()
     classifier.fit(features_train, target_train)
-    classifier.score(features_test, target_test)
+    acc = classifier.score(features_test, target_test)
+    print(acc)
 
     training_path = Path(__file__).parent
     dump(classifier, training_path / 'RandomForestClassifier.joblib')
     print("dank memes")
+
 
 if __name__ == '__main__':
     main()
