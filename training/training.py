@@ -29,6 +29,7 @@ def main():
 
     training_path = Path(__file__).parent
     dump(classifier, training_path / 'RandomForestClassifier.joblib')
+    print("dank memes")
 
 if __name__ == '__main__':
     main()
