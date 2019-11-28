@@ -27,6 +27,7 @@ class TestPreProcessData:
         """
         Check number of features
         """
+        get_data.main()
         data_for_training = pre_processing.main()
         assert data_for_training.shape[1] == 12
 
