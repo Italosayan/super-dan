@@ -67,7 +67,7 @@ def read_data() -> pd.DataFrame:
     return data_frame_roc_crimes
 
 
-def main():
+def main() -> pd.DataFrame:
     """
     Prepare for training the data requested by get_data.py
     :return: Data frame ready for training

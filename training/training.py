@@ -20,11 +20,12 @@ def main():
     features_train, features_test, target_train, target_test = train_test_split(
         features, target, random_state=0)
 
-    dummy = DummyClassifier(strategy='uniform', random_state=1)
+    dummy = DummyClassifier(strategy='uniform', random_state=0)
     dummy.fit(features_train, target_train)
-    dummy.score(features_test, target_test)
+    dummy_score = dummy.score(features_test, target_test)
+    print(dummy_score)
 
-    classifier = RandomForestClassifier()
+    classifier = RandomForestClassifier(random_state=0)
     classifier.fit(features_train, target_train)
     acc = classifier.score(features_test, target_test)
     print(acc)

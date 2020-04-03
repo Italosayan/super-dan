@@ -105,3 +105,4 @@ venv.bak/
 
 # DS
 .DS_Store
+/great_expectations/notebooks/

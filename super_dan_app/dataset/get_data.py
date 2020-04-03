@@ -1,5 +1,5 @@
 """
-This file requests crime data to the RPD-NY API.
+This file requests crime data to the RPD-NY ml_api.
 Then turns the response to a consumable format(pandas dataframe).
 """
 import requests
@@ -34,8 +34,8 @@ REQUEST_URL = URL_CRIME_60_DAYS \
 
 def crime_data_request(url: str) -> requests.Response:
     """
-    This function uses the REQUEST_URL to request data from the RPD API
-    :param url: Url format to access the RPD API
+    This function uses the REQUEST_URL to request data from the RPD ml_api
+    :param url: Url format to access the RPD ml_api
     https://data-rpdny.opendata.arcgis.com/datasets/rpd-part-i-crime-60-days/geoservice
     :return: requests.Response data of 60 days of crime data.
     """
@@ -45,7 +45,7 @@ def crime_data_request(url: str) -> requests.Response:
 
 def request_to_data_frame(json_data: requests.Response) -> pd.DataFrame:
     """
-    This function cleans the response of the RPD API and
+    This function cleans the response of the RPD ml_api and
     puts it in a pandas data frame.
     :param json_data: Request response in json format
     :return: pandas data frame of one crime per row.
@@ -90,9 +90,9 @@ def main():
     # Clean
     data_frame_roc_crimes = request_to_data_frame(roc_crimes_response)
     # Save
-    now = str(datetime.now()).replace(" ", "|")
+    now = str(datetime.now().replace(microsecond=0)).replace(" ", "|")
     os.makedirs("super_dan_app/dataset/queried_data", exist_ok=True)
-    file_path = f"super_dan_app/dataset/queried_data/{now}_crimes.csv"
+    file_path = f"super_dan_app/dataset/queried_data/day_{now}_crimes.csv"
     data_frame_roc_crimes.to_csv(file_path, index=False)
     return 0
 
