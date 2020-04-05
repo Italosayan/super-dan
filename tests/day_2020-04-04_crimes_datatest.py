@@ -17,15 +17,14 @@ Usage:
 pipeline.
 """
 import sys
-
 from great_expectations import DataContext
 
 # tap configuration
-context = DataContext("/Users/italosayan/Code/super_dan/great_expectations")
+context = DataContext("./great_expectations")
 suite = context.get_expectation_suite("day_2020-04-04_crimes")
 # You can modify your BatchKwargs to select different data
 batch_kwargs = {
-    "path": "/Users/italosayan/Code/super_dan/super_dan_app/dataset/queried_data/day_2020-04-04|00:26:03_crimes.csv",
+    "path": "./super_dan_app/dataset/queried_data/day_2020-04-04|00:26:03_crimes.csv",
     "datasource": "files_datasource",
     "reader_method": "read_csv",
 }
