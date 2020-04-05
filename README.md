@@ -55,6 +55,13 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 java -jar jenkins.war --httpPort=8080
 ```
 
+Workflow
+
+```
+After a commit execute jenkins:
+Docker, great_expectations and pytest will be executed
+```
+
 Next Steps:
 
 1. Set up test workflow: Always run the full test suite before a coding session, and run it again after. This will give you more confidence that you did not break anything in the rest of the code.
