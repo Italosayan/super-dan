@@ -37,10 +37,16 @@ Great Expectations workflow and basics
 * Expectation : Data test
 
 ```
+great_expectations suite list
 great_expectations init # Only ran once
 great_expectations docs build # See expectations in jupyter
 great_expectations suite edit # Edits a data doc
 great_expectations suite new # Create new group of tests.(Use when new sql or new data source)
+```
+
+* Workflow
+```
+great_expectations tap new day_2020-04-04_crimes day_2020-04-04_crimes_test.py
 ```
 
 Execute Jenkins

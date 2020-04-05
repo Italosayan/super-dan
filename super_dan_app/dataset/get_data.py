@@ -50,6 +50,8 @@ def request_to_data_frame(json_data: requests.Response) -> pd.DataFrame:
     :param json_data: Request response in json format
     :return: pandas data frame of one crime per row.
     """
+    # x: Longitud
+    # y: Latitude
     empty_geometry = {'x': None,
                       'y': None}
 
