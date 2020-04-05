@@ -73,4 +73,12 @@ Next Steps:
 7. Load test
 
 
+Workflow Advice
+* Test to know if code works
+* Remove fear
+* When code is changed add a test
+* When a bug is found write a test
+* Test explains how
+* Write comments to explain why
+
 contact : superdancontact@gmail.com
