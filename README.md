@@ -96,7 +96,7 @@ Data Science Workflow
         * Look for places where cheap prediction can help
         * Where are humans writing rules?
     * Define Goal: Cost
-        * Data availability: How to adquire it?
+        * Data availability: How to acquire it?
         * Labeling expensive?
         * How costly are wrong predictions?
         * How easy to solve?
@@ -107,7 +107,7 @@ Data Science Workflow
         * Do we have a threshold in any of the metrics?
             * Example: recall > 0.6 and the choose the one with the highest precision
     * Requirements:
-        * Realtime, online, offline?
+        * Realtime(Inference Pipeline) or Batch(Batch Transform)?
         * Inference time. Train time.
         * Baselines: Human performance.
 
@@ -119,9 +119,9 @@ Data Science Workflow
 3. Training and debugging
     * Model of increasing complexity
     * Interpretable
-    * 
     
 4. Deployment
+    * AWS Sagemaker
 
 5. Monitoring
     * Datadog
