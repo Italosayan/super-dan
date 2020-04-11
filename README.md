@@ -56,7 +56,6 @@ java -jar jenkins.war --httpPort=8080
 ```
 
 Workflow
-
 ```
 After a commit execute jenkins:
 Docker, great_expectations and pytest will be executed
@@ -80,5 +79,63 @@ Workflow Advice
 * When a bug is found write a test
 * Test explains how
 * Write comments to explain why
+
+Experimentation:
+* Weights and biases is a great way to store runs
+* Experimentation iteration?
+
+Production:
+* Metaflow
+* Sagemaker
+
+
+Data Science Workflow
+1. Planning & Project setup
+    * Define Goal: Benefit
+        * Complex heuristics
+        * Look for places where cheap prediction can help
+        * Where are humans writing rules?
+    * Define Goal: Cost
+        * Data availability: How to adquire it?
+        * Labeling expensive?
+        * How costly are wrong predictions?
+        * How easy to solve?
+    * Choosing a metrics:
+        * Define recall and precision in domain
+            * Precision: How many of the recommended wines are good?
+            * Recall: How many of the good wines are recommended?
+        * Do we have a threshold in any of the metrics?
+            * Example: recall > 0.6 and the choose the one with the highest precision
+    * Requirements:
+        * Realtime, online, offline?
+        * Inference time. Train time.
+        * Baselines: Human performance.
+
+2. Data collection & labeling
+    * EDA
+    * Domain knowledge
+    * SQL like crazy
+
+3. Training and debugging
+    * Model of increasing complexity
+    * Interpretable
+    * 
+    
+4. Deployment
+
+5. Monitoring
+    * Datadog
+
+
+* https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
+* https://www.fast.ai/2020/01/07/data-questionnaire/
+* http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+
+Tools to explore:
+* Summarize wandb plots
+* https://pair-code.github.io/what-if-tool/
+* https://flyte.org/
+* https://www.kaggle.com/learn/machine-learning-explainability
+* https://christophm.github.io/interpretable-ml-book/
 
 contact : superdancontact@gmail.com
