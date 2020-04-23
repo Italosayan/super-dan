@@ -110,6 +110,10 @@ Data Science Workflow
         * Realtime(Inference Pipeline) or Batch(Batch Transform)?
         * Inference time. Train time.
         * Baselines: Human performance.
+    * Evaluation:
+        * A/B Test Design
+        * Tracking
+    
 
 2. Data collection & labeling
     * EDA
