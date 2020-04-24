@@ -1,6 +1,6 @@
 import os
 import boto3
-
+# Test input requests
 role = os.environ.get('ARN_USER')
 
 session = boto3.Session(profile_name='italouser',
