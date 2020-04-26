@@ -139,6 +139,7 @@ Articles:
 * http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
 
 Tools to explore:
+* https://pycaret.org/
 * Summarize wandb plots
 * https://pair-code.github.io/what-if-tool/
 * https://flyte.org/
