@@ -126,6 +126,12 @@ Data Science Workflow
     
 4. Deployment
     * AWS Sagemaker
+    ML in production: 
+    WSGI: server and application communication 
+    Http -> Nginx(Distributes to workers) -> HTTP -> Gunicorn workers parse http using wsgi and pass inputs to python application -> (flask or django or anything)
+    1. Nginx is a light-weight layer that handles the incoming HTTP requests and manages the I/O in and out of the container efficiently.
+    2. Gunicorn is a WSGI pre-forking worker server that runs multiple copies of your application and load balances between them.
+    3. Flask is a simple web framework used in the inference app that you write. It lets you respond to call on the /ping and /invocations endpoints without having to write much code.
 
 5. Monitoring
     * Datadog

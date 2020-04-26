@@ -1,4 +1,5 @@
 # S3 prefix
+# https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-deploy-model.html
 import itertools
 
 prefix = 'DEMO-scikit-byo-iris'
@@ -34,6 +35,9 @@ tree = sage.estimator.Estimator(image,
 tree.fit(data_location)
 
 # Deploy. Calls docker serve in uploaded image
+# Creates deployable model: Gets it from s3. The location specified in the output_path of ESTIMATOR.
+# Configures endpoint
+# Launches the endpoint
 predictor = tree.deploy(1, 'ml.m4.xlarge', serializer=csv_serializer)
 
 shape = pd.read_csv("data/iris.csv", header=None)
