@@ -20,6 +20,7 @@ sess = sage.Session(boto_session=session)
 
 # Upload training data to S3
 WORK_DIRECTORY = 'data'
+# The sagemaker session hows where the input data is stored
 data_location = sess.upload_data(WORK_DIRECTORY, key_prefix=prefix)
 
 # Upload train/serve image to ecs with a image type and count

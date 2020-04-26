@@ -132,6 +132,16 @@ Data Science Workflow
     1. Nginx is a light-weight layer that handles the incoming HTTP requests and manages the I/O in and out of the container efficiently.
     2. Gunicorn is a WSGI pre-forking worker server that runs multiple copies of your application and load balances between them.
     3. Flask is a simple web framework used in the inference app that you write. It lets you respond to call on the /ping and /invocations endpoints without having to write much code.
+    
+    Sagemaker deploy explanation:
+    1. Training job(docker-tag train) 
+        1. Input training data to the sagemaker session using upload_data.
+        2. AWS executes your train code. Gets data and trains.
+        3. Train code writes model output to opt/ml/model and sagemaker copies it to s3.
+    2. Deploy(docker-tag serve):  
+        1. Creates deployable model: Gets it from s3. The location specified in the output_path of ESTIMATOR.
+        2. Configures endpoint
+        3. Launches the endpoint
 
 5. Monitoring
     * Datadog
