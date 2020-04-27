@@ -70,13 +70,14 @@ Next Steps:
 5. [x] Deploy Pipeline that outputs .pkl to the API using Metaflow
 6. [x] Deploy the API using Sagemaker.
 7. [ ] Load test (extra)
-8. [ ] Setup experimentation job in jenkins. (wndb metrics)
-9. [ ] Setup deployment job in jenkins.
-10. [ ] Define how the experimentation and deployment job related.
-11. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
-12. [ ] Read sequoia stuff
-13. [ ] Read Ml in prod
-14. [ ] Read aws managing data science
+8. [ ] Endpoint monitoring in sagemaker
+9. [ ] Setup experimentation job in jenkins. (wndb metrics)
+10. [ ] Setup deployment job in jenkins.
+11. [ ] Define how the experimentation and deployment job related.
+12. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
+13. [ ] Read sequoia stuff
+14. [ ] Read Ml in prod
+15. [ ] Read aws managing data science
 
 
 Workflow Advice
