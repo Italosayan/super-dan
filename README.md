@@ -69,7 +69,7 @@ Next Steps:
 4. [x] Think about workflow and best practices
 5. [x] Deploy Pipeline that outputs .pkl to the API using Metaflow
 6. [x] Deploy the API using Sagemaker.
-7. Load test (extra)
+7. [ ] Load test (extra)
 8. [ ] Setup experimentation job in jenkins. (wndb metrics)
 9. [ ] Setup deployment job in jenkins.
 10. [ ] Define how the experimentation and deployment job related.
