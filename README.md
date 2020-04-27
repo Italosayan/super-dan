@@ -107,7 +107,6 @@ Data Science Workflow
         * Do we have a threshold in any of the metrics?
             * Example: recall > 0.6 and the choose the one with the highest precision
     * Requirements:
-        * Keep the first model simple and get the infrastructure right
         * Realtime(Inference Pipeline) or Batch(Batch Transform)?
         * Inference time. Train time.
         * Baselines: Human performance.
@@ -122,6 +121,7 @@ Data Science Workflow
     * SQL like crazy
 
 3. Training and debugging
+    * Keep the first model simple and get the infrastructure right
     * Model of increasing complexity
     * Interpretable
     
