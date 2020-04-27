@@ -2,7 +2,7 @@
 # https://docs.aws.amazon.com/sagemaker/latest/dg/ex1-deploy-model.html
 import itertools
 
-prefix = 'DEMO-scikit-byo-iris'
+prefix = 'DEMO-Training-data'
 
 # Define IAM role
 import boto3
@@ -22,18 +22,22 @@ sess = sage.Session(boto_session=session)
 WORK_DIRECTORY = 'data'
 # The sagemaker session hows where the input data is stored
 data_location = sess.upload_data(WORK_DIRECTORY, key_prefix=prefix)
+print("Training Data has been uploaded")
 
-# Upload train/serve image to ecs with a image type and count
-# Writes model artifacts to s3 inside output sub directory
+# Set up
 account = sess.boto_session.client('sts').get_caller_identity()['Account']
 region = sess.boto_session.region_name
-image = '{}.dkr.ecr.{}.amazonaws.com/dtrees:latest'.format(account, region)
+image = '{}.dkr.ecr.{}.amazonaws.com/decision-tree:latest'.format(account, region)
 tree = sage.estimator.Estimator(image,
                                 role, 1, 'ml.c4.2xlarge',
                                 output_path="s3://{}/output".format(sess.default_bucket()),
                                 sagemaker_session=sess)
+print("name_of_estimator has been set up but not upload")
 # Call to CreateTrainingJob API. Calls docker run train in uploaded image
+# Upload train/serve image to ecs with a image type and count
+# Writes model artifacts to s3 inside output sub directory
 tree.fit(data_location)
+print("name_of_estimator has been used to train a model")
 
 # Deploy. Calls docker serve in uploaded image
 # Creates deployable model: Gets it from s3. The location specified in the output_path of ESTIMATOR.
@@ -41,14 +45,14 @@ tree.fit(data_location)
 # Launches the endpoint
 predictor = tree.deploy(1, 'ml.m4.xlarge', serializer=csv_serializer)
 
-shape = pd.read_csv("data/iris.csv", header=None)
-shape.sample(3)
+#shape = pd.read_csv("data/iris.csv", header=None)
+#shape.sample(3)
 # drop the label column in the training set
-shape.drop(shape.columns[[0]], axis=1, inplace=True)
-shape.sample(3)
-a = [50 * i for i in range(3)]
-b = [40 + i for i in range(10)]
-indices = [i + j for i, j in itertools.product(a, b)]
-test_data = shape.iloc[indices[:-1]]
+#shape.drop(shape.columns[[0]], axis=1, inplace=True)
+#shape.sample(3)
+#a = [50 * i for i in range(3)]
+#b = [40 + i for i in range(10)]
+#indices = [i + j for i, j in itertools.product(a, b)]
+#test_data = shape.iloc[indices[:-1]]
 
-print(predictor.predict(test_data.values).decode('utf-8'))
+#print(predictor.predict(test_data.values).decode('utf-8'))

@@ -126,6 +126,23 @@ Data Science Workflow
     
 4. Deployment
     * AWS Sagemaker
+        0. export AWS_PROFILE=italouser
+        0. aws configure --profile italouser
+        1. build_and_push.sh name-of-estimator: Image pushed to ecr
+        2. ARN_USER is defined in .zprofile
+        3. Change name-of-estimator in sage_sdk_setup_train.py
+        4. run sage_sdk_setup_train.py (without deploy command)
+            - uploads training data
+            - Writes model artifacts to s3 inside output sub directory
+            - sagemaker-eu-west-1/output/decision-tree/output model artifact
+        5. run sage_sdk_setup_train.py (with deploy command)
+            - the deploy command: 
+            - Upload train/serve image to sagemaker with a image type and count.
+            - Endpoint config and creation
+            - Model in sagemaker
+        6. Change endpoint name and run sage_sdk_get_requests.py
+            
+        
     ML in production: 
     WSGI: server and application communication 
     Http -> Nginx(Distributes to workers) -> HTTP -> Gunicorn workers parse http using wsgi and pass inputs to python application -> (flask or django or anything)
