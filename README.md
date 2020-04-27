@@ -69,7 +69,13 @@ Next Steps:
 4. [x] Think about workflow and best practices
 5. [x] Deploy Pipeline that outputs .pkl to the API using Metaflow
 6. [x] Deploy the API using Sagemaker.
-7. Load test
+7. Load test (extra)
+8. [ ] Setup experimentation job in jenkins. (wndb metrics)
+9. [ ] Setup deployment job in jenkins.
+10. [ ] Define how the experimentation and deployment job related.
+11. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
+12.
+
 
 
 Workflow Advice
@@ -113,7 +119,6 @@ Data Science Workflow
     * Evaluation:
         * A/B Test Design
         * Tracking
-    
 
 2. Data collection & labeling
     * EDA
@@ -125,10 +130,13 @@ Data Science Workflow
     * Model of increasing complexity
     * Interpretable
     
-4. Deployment
+4. Evaluation
+    * Metric definition
+    
+5. Deployment
     * AWS Sagemaker
 
-5. Monitoring
+6. Monitoring
     * Datadog
 
 Articles:
