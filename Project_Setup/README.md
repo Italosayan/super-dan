@@ -1,9 +1,10 @@
 Planning & Project setup
 
 Define Business Goal: Benefit
-Complex heuristics
-Data Science Workflow
-Iterative and hypothesis driven process.
+-Complex heuristics
+-Data Science Workflow
+-Iterative and hypothesis driven process.
+
 1. Planning & Project setup
     * Define Business Goal: Benefit
         * Complex heuristics
