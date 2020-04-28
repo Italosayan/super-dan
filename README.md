@@ -53,6 +53,11 @@ Execute Jenkins
 ```
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 java -jar jenkins.war --httpPort=8080
+
+brew cask install homebrew/cask-versions/adoptopenjdk8
+brew install jenkins-lts
+brew services start jenkins-lts
+Go to localhost
 ```
 
 Workflow
@@ -63,13 +68,21 @@ Docker, great_expectations and pytest will be executed
 
 Next Steps:
 
-1. Set up test workflow: Always run the full test suite before a coding session, and run it again after. This will give you more confidence that you did not break anything in the rest of the code.
-2. Set up Jenkins job
-3. Set up WandB with current model.
-4. Think about workflow and best practices
-5. Deploy Pipeline that outputs .pkl to the API using Metaflow
-6. Deploy the API using Sagemaker or AWS Lambda
-7. Load test
+1. [x] Set up test workflow: Always run the full test suite before a coding session, and run it again after. This will give you more confidence that you did not break anything in the rest of the code.
+2. [x] Set up Jenkins job
+3. [x] Set up WandB with current model.
+4. [x] Think about workflow and best practices
+5. [x] Deploy Pipeline that outputs .pkl to the API using Metaflow
+6. [x] Deploy the API using Sagemaker.
+7. [ ] Load test (extra)
+8. [ ] Endpoint monitoring in sagemaker
+9. [ ] Setup experimentation job in jenkins. (wndb metrics)
+10. [ ] Setup deployment job in jenkins.
+11. [ ] Define how the experimentation and deployment job related.
+12. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
+13. [ ] Read sequoia stuff
+14. [ ] Read Ml in prod
+15. [ ] Read aws managing data science
 
 
 Workflow Advice
@@ -91,7 +104,7 @@ Production:
 
 Data Science Workflow
 1. Planning & Project setup
-    * Define Goal: Benefit
+    * Define Business Goal: Benefit
         * Complex heuristics
         * Look for places where cheap prediction can help
         * Where are humans writing rules?
@@ -100,7 +113,7 @@ Data Science Workflow
         * Labeling expensive?
         * How costly are wrong predictions?
         * How easy to solve?
-    * Choosing a metrics:
+    * Choosing a metric:
         * Define recall and precision in domain
             * Precision: How many of the recommended wines are good?
             * Recall: How many of the good wines are recommended?
@@ -113,7 +126,6 @@ Data Science Workflow
     * Evaluation:
         * A/B Test Design
         * Tracking
-    
 
 2. Data collection & labeling
     * EDA
@@ -121,10 +133,14 @@ Data Science Workflow
     * SQL like crazy
 
 3. Training and debugging
+    * Keep the first model simple and get the infrastructure right
     * Model of increasing complexity
     * Interpretable
     
-4. Deployment
+4. Evaluation
+    * Metric definition
+    
+5. Deployment
     * AWS Sagemaker
         0. export AWS_PROFILE=italouser
         0. aws configure --profile italouser
@@ -160,15 +176,17 @@ Data Science Workflow
         2. Configures endpoint
         3. Launches the endpoint
 
-5. Monitoring
+6. Monitoring
     * Datadog
 
-
+Articles:
 * https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
 * https://www.fast.ai/2020/01/07/data-questionnaire/
+* https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf
 * http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
 
 Tools to explore:
+* https://pycaret.org/
 * Summarize wandb plots
 * https://pair-code.github.io/what-if-tool/
 * https://flyte.org/
