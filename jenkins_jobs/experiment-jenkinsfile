@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('test') {
             steps {
+                agent { dockerfile true }
                 sh 'ls super_dan_app/dataset/queried_data'
                 sh 'python --version'
                 sh 'python -m pytest'
@@ -11,6 +12,7 @@ pipeline {
         }
         stage('build') {
             steps {
+                agent { dockerfile true }
                 sh 'python super_dan_app/dataset/get_data.py'
                 sh 'ls super_dan_app/dataset/queried_data'
                 sh 'python super_dan_app/dataset/pre_processing.py'
@@ -19,3 +21,4 @@ pipeline {
         }
     }
 }
+
