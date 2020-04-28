@@ -58,6 +58,7 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 brew install jenkins-lts
 brew services start jenkins-lts
 Go to localhost
+https://stackoverflow.com/questions/43987005/jenkins-does-not-recognize-command-sh/48634476
 https://stackoverflow.com/questions/54452082/jenkins-docker-command-not-found-path-setup
 ```
 
