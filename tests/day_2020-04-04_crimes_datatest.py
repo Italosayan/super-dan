@@ -20,7 +20,7 @@ import sys
 from great_expectations import DataContext
 
 # tap configuration
-context = DataContext("./great_expectations")
+context = DataContext("great_expectations")
 suite = context.get_expectation_suite("day_2020-04-04_crimes")
 # You can modify your BatchKwargs to select different data
 batch_kwargs = {
