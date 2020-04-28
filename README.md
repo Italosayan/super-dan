@@ -53,6 +53,11 @@ Execute Jenkins
 ```
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 java -jar jenkins.war --httpPort=8080
+
+brew cask install homebrew/cask-versions/adoptopenjdk8
+brew install jenkins-lts
+brew services start jenkins-lts
+Go to localhost
 ```
 
 Workflow
