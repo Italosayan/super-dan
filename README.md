@@ -177,6 +177,12 @@ Data Science Workflow
     2. Gunicorn is a WSGI pre-forking worker server that runs multiple copies of your application and load balances between them.
     3. Flask is a simple web framework used in the inference app that you write. It lets you respond to call on the /ping and /invocations endpoints without having to write much code.
     
+    Which aws instance should I use and how many?
+    What will be the load?
+    
+    https://stackoverflow.com/questions/15979428/what-is-the-appropriate-number-of-gunicorn-workers-for-each-amazon-instance-type
+    https://github.com/garnaat/missingcloud
+    
     Sagemaker deploy explanation:
     1. Training job(docker-tag train) 
         1. Input training data to the sagemaker session using upload_data.
