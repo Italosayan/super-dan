@@ -79,14 +79,14 @@ Next Steps:
 6. [x] Deploy the API using Sagemaker.
 7. [ ] Load test (extra)
 8. [ ] Endpoint monitoring in sagemaker
-9. [ ] Setup experimentation job in jenkins. (wndb metrics)
-10. [ ] Setup deployment job in jenkins.
-11. [ ] Define how the experimentation and deployment job related.
-12. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
-13. [ ] Read sequoia stuff
-14. [ ] Read Ml in prod
-15. [ ] Read aws managing data science
-
+9. [x] Setup experimentation job in jenkins. (wndb metrics)
+10. [x] Multi branch experimentation job in jenkins. (wndb metrics)
+12. [ ] Setup deployment job in jenkins.
+13. [ ] Define how the experimentation and deployment job related.
+14. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
+15. [ ] Read sequoia stuff
+16. [ ] Read Ml in prod
+17. [ ] Read aws managing data science
 
 Workflow Advice
 * Test to know if code works
@@ -99,6 +99,9 @@ Workflow Advice
 Experimentation:
 * Weights and biases is a great way to store runs
 * Experimentation iteration?
+* One candidate model per branch. The experimentation job in jenkins has branch as a input
+* One experimentation job can be in aws the other local.
+* Production is in master. Deployment trains and deploys to aws
 
 Production:
 * Metaflow
