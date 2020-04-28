@@ -61,6 +61,8 @@ Go to localhost
 https://stackoverflow.com/questions/43987005/jenkins-does-not-recognize-command-sh/48634476
 https://stackoverflow.com/questions/54452082/jenkins-docker-command-not-found-path-setup
 https://stackoverflow.com/questions/50333325/jenkins-cannot-run-program-docker-error-2-no-such-file-or-directory
+https://www.edureka.co/community/8365/permission-denied-error-while-running-simple-job-in-jenkins
+Remember to not have empty env variables in jenkins
 ```
 
 Workflow
