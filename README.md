@@ -4,7 +4,7 @@ Don't go to that street today. For now predicting larcenies vs burglaries
 For development:
 ```
 git clone https://github.com/Italosayan/super-dan.git
-export PYTHONPATH="/Users/path/to/super_dan":$PYTHONPATH
+export PYTHONPATH="/Users/path/to/super_dan":$PYTHONPATH # Add pythonpath to what it already is
 cd super-dan
 python3 -m venv env
 source env/bin/activate
@@ -58,6 +58,9 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 brew install jenkins-lts
 brew services start jenkins-lts
 Go to localhost
+https://stackoverflow.com/questions/43987005/jenkins-does-not-recognize-command-sh/48634476
+https://stackoverflow.com/questions/54452082/jenkins-docker-command-not-found-path-setup
+https://stackoverflow.com/questions/50333325/jenkins-cannot-run-program-docker-error-2-no-such-file-or-directory
 ```
 
 Workflow
