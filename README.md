@@ -4,7 +4,7 @@ Don't go to that street today. For now predicting larcenies vs burglaries
 For development:
 ```
 git clone https://github.com/Italosayan/super-dan.git
-export PYTHONPATH="/Users/path/to/super_dan":$PYTHONPATH
+export PYTHONPATH="/Users/path/to/super_dan":$PYTHONPATH # Add pythonpath to what it already is
 cd super-dan
 python3 -m venv env
 source env/bin/activate
