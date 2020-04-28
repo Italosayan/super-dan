@@ -175,4 +175,8 @@ Tools to explore:
 * https://www.kaggle.com/learn/machine-learning-explainability
 * https://christophm.github.io/interpretable-ml-book/
 
+Workflow 2.0
+
+
+
 contact : superdancontact@gmail.com

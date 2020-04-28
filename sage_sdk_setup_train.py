@@ -27,7 +27,7 @@ print("Training Data has been uploaded")
 # Set up
 account = sess.boto_session.client('sts').get_caller_identity()['Account']
 region = sess.boto_session.region_name
-image = '{}.dkr.ecr.{}.amazonaws.com/decision-tree:latest'.format(account, region)
+image = '{}.dkr.ecr.{}.amazonaws.com/test-algo:latest'.format(account, region)
 tree = sage.estimator.Estimator(image,
                                 role, 1, 'ml.c4.2xlarge',
                                 output_path="s3://{}/output".format(sess.default_bucket()),

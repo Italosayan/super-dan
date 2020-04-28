@@ -8,9 +8,9 @@ session = boto3.Session(profile_name='italouser',
 
 client = session.client('sagemaker-runtime')
 
-test_data = "1.0,1.0,1.0,1.0"
+test_data = "10.0,2.0,34.0,5.0"
 response = client.invoke_endpoint(
-    EndpointName='decision-tree-2020-04-27-17-32-08-246',
+    EndpointName='test-algo-2020-04-28-07-47-07-645',
     Body=test_data,
     ContentType='text/csv'
 )
