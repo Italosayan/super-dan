@@ -2,6 +2,8 @@ Planning & Project setup
 
 Data Science Workflow :Iterative and hypothesis driven process.
 
+hypothesis-model-experiment cycle
+
 1. Planning & Project setup
     * Define Business Goal: Benefit
         * Complex heuristics
@@ -103,3 +105,15 @@ Sample mush represent the serving population distribution.
 Diagnosing selection bias is straightforward: consider a sample of the natural observation space (users or sessions in the dates flexibility case), we can then construct a classification problem that classifies each observation into the class of the observations for which a target variable can be computed and the class of the observations for which a target variable cannot be computed
 
 Correcting for this type of bias is not obvious. Techniques like Inverse Propensity Weighting [11] and Doubly Robust [4] are helpful in some cases, but they require at least one extra model to build (the propensity model). Other approaches that have been applied successfully but not systematically are methods from the PU-Learning [9] and Semi Supervised Learning fields.
+
+what can we say about the quality of a model by just looking at the predictions it makes when serving?
+The method is based on the Response Distribution Chart (RDC), which is simply a histogram of the output of the model. The simple observation that the RDC of an ideal model should have one peak at 0 and one peak at 1 (with heights given by the class proportion) allows us to characterize typical patterns that signal potential issues in the model, a few examples are:
+• A smooth unimodal distribution with a central mode might indicate high bias in the model or high Bayes error in the data
+• An extreme, high frequency mode might indicate defects in the feature layer like wrong scaling or false outliers in the training data
+• Non-smooth, very noisy distributions point to too exces- sively sparse models
+• Differenceindistributionsbetweentrainingandservingdata may indicate concept drift, feature drift, bias in the training set, or other forms of training-serving skew.
+• Smooth bimodal distributions with one clear stable point are signs of a model that successfully distinguishes two classes
+
+
+Experiment desing: Sophistication pays off.
+
