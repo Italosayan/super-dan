@@ -123,3 +123,10 @@ The method is based on the Response Distribution Chart (RDC), which is simply a 
 
 * EVALUATION: EXPERIMENT DESIGN SOPHISTICATION PAYS OFF
 
+Experiment desing is also its own thing.
+
+Triggered analysis with treatments design to isolate the causal effect of specific modeling and imple- mentation choices on business metrics.
+
+
+
+
