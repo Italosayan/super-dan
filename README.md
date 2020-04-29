@@ -90,8 +90,8 @@ Next Steps:
 13. [ ] Define how the experimentation and deployment job related.
 14. [ ] Setup data exploration/concept drift job in jenkins. (expectations)
 15. [ ] Read sequoia stuff
-16. [ ] Read Ml in prod
-17. [ ] Read aws managing data science
+16. [X] Read Ml in prod
+17. [X] Read aws managing data science
 
 Workflow Advice
 * Test to know if code works
