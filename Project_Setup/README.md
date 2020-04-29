@@ -131,6 +131,16 @@ experiment design
 https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-04-29%20at%2012.54.57.png
 
 
+********
+Amazon paper: Managing ml projects.
+
+Assesing Economic Value
+
+The main parameter that will help you further in terms of ROI calculations of an ML project is the accuracy of the system that you need to match your expected gains. You see, any ML algorithm has the accuracy metric, which defines how precise the predictions (we told you to memorize this term) are. The accuracy you look for must enable the gains that you expect. This technique is called the impact of error costs assessment.
+
+For example, you need about $1.4 million in annual savings from your anti-fraud solution to survive on the market. Let’s assume that your average revenue with 4,000 purchase orders per month – given the average order value $83 – is $332,000.
+
+Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). That cost you $132,800. With the solution of 95 percent accuracy, you would compensate for 5 percent of 4,000 transactions (200), which is $16,600. Your gain is decreased expenses on chargebacks, and it accounts for $116,200. That’s $1,394,400 in savings each year. So, you need a solution to detect 95 suspicious transactions out of 100 (accuracy). The tool that can reach this threshold gets a green light.
 
 
 
