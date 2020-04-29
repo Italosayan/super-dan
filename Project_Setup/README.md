@@ -4,6 +4,8 @@ Data Science Workflow :Iterative and hypothesis driven process.
 
 hypothesis-model-experiment cycle
 
+https://www.jeremyjordan.me/ml-requirements/amp/
+
 1. Planning & Project setup
     * Define Business Goal: Benefit
         * Complex heuristics
