@@ -126,7 +126,8 @@ The method is based on the Response Distribution Chart (RDC), which is simply a 
 Experiment desing is also its own thing.
 
 Triggered analysis with treatments design to isolate the causal effect of specific modeling and imple- mentation choices on business metrics.
-[experiment design]: https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-04-29%20at%2012.54.57.png
+
+[experiment design]:https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-04-29%20at%2012.54.57.png
 
 
 
