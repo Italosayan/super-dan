@@ -58,9 +58,11 @@ Architecture and simple model provides baseline metrics and behavior to compare 
 Bookings paper:
 https://dl.acm.org/doi/10.1145/3292500.3330744
 
-Inception:
-Product team produces ideas, hypotheses, business cases, etc
+Leassons learned at booking:
 
+* INCEPTION: MACHINE LEARNING AS A SWISS KNIFE FOR PRODUCT DEVELOPMENT
+
+Product team produces ideas, hypotheses, business cases, etc
 Booking project examples:
 Indicate how flexible a user is with respect to the destination of their trip
 
@@ -76,12 +78,12 @@ Concretely, in our analysis we found that on average each semantic model generat
 -Content Augmentation:  augmentation is about enriching an existing entity using data from many others. 
    *"Great Value Today" icons simplify this process by highlight- ing properties offering an outstanding value for the price  they are asking. Also: price trends to help the user
 
-"MODELING: OFFLINE MODEL PERFORMANCE IS JUST A HEALTH CHECK!":
+* "MODELING: OFFLINE MODEL PERFORMANCE IS JUST A HEALTH CHECK!":
 Offline model performance metrics are only a health check, to make sure the algorithm does what we want to.
 
-Click Through Rate because we know that CTR has a strong correlation or even causation with Conversion Rate, the business metric we really care about in this case. But as models get better and better, they might end up “just driving clicks”, without any actual effect on conversion. An example of this is a model that learned to recommend very similar hotels to the one a user is looking at, encouraging the user to click (presumably to compare all the very similar hotels), eventually drowning them into the paradox of choice and hurting conversion. In general, over-optimizing proxies leads to distracting the user away from their goal.
+Click Through Rate because we know that CTR has a strong correlation or even causation with Conversion Rate, the business metric we really care about in this case. But as models get better and better, they might end up “just driving clicks”, without any actual effect on conversion. Over-optimizing proxies leads to distracting the user away from their goal.
 
-Inception:
+* MODELING: BEFORE SOLVING A PROBLEM, DESIGN IT
 
 Problem Construction Process, qualitative aspects of a model (like diversity, transparency, adapt- ability, etc.), experiment design and latency. As an example consider a recommender system that predicts the rating a user would give to an accommodation. Minimizing RMSE looks like a reasonable approach. After a few successful iterations we hypothesize that the model is lacking diversity, so we create a challenger model that although still minimizes RMSE, somehow produces higher diversity. It is likely that this new model has a higher RMSE, but as long as it succeeds at increasing diversity and gives a reasonable RMSE, it will be used to test the hypothesis “diversity matters”. Inconclusive re- sults might point to adjustments of the model or experiment design, to make sure we give the hypothesis a fair chance. Negative results will likely reject the concept. Positive results on the other hand, will encourage diversity related changes, not only in the model but also in the User Interface, and even the product as a whole.
 
@@ -106,6 +108,11 @@ Diagnosing selection bias is straightforward: consider a sample of the natural o
 
 Correcting for this type of bias is not obvious. Techniques like Inverse Propensity Weighting [11] and Doubly Robust [4] are helpful in some cases, but they require at least one extra model to build (the propensity model). Other approaches that have been applied successfully but not systematically are methods from the PU-Learning [9] and Semi Supervised Learning fields.
 
+* DEPLOYMENT: TIME IS MONEY:
+ Lattency is its own thing. Maybe more important than any business metric
+ 
+* MONITORING: UNSUPERVISED RED FLAGS
+ 
 what can we say about the quality of a model by just looking at the predictions it makes when serving?
 The method is based on the Response Distribution Chart (RDC), which is simply a histogram of the output of the model. The simple observation that the RDC of an ideal model should have one peak at 0 and one peak at 1 (with heights given by the class proportion) allows us to characterize typical patterns that signal potential issues in the model, a few examples are:
 • A smooth unimodal distribution with a central mode might indicate high bias in the model or high Bayes error in the data
@@ -114,6 +121,5 @@ The method is based on the Response Distribution Chart (RDC), which is simply a 
 • Differenceindistributionsbetweentrainingandservingdata may indicate concept drift, feature drift, bias in the training set, or other forms of training-serving skew.
 • Smooth bimodal distributions with one clear stable point are signs of a model that successfully distinguishes two classes
 
-
-Experiment desing: Sophistication pays off.
+* EVALUATION: EXPERIMENT DESIGN SOPHISTICATION PAYS OFF
 
