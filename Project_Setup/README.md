@@ -156,4 +156,5 @@ Monthly active users (MAUs) are also new users, and there is no churn or resurre
 Your month-over-month net user growth depends entirely on the Quick Ratio: (new users + resurrected users) / churned users.
 
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
+
 https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
