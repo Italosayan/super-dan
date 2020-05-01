@@ -148,6 +148,8 @@ Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). T
 
 Data-Informed Product Building 
 
+EVOLUTION OF A PRODUCT
+
 For strong products, the phases of growth usually resemble an S-curve 
 Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
 Better to have a few users who love a product
@@ -155,6 +157,52 @@ Monthly active users (MAUs) are also new users, and there is no churn or resurre
 (Note: the total number of active users for a given time period is the sum of retention, resurrection and new users.
 Your month-over-month net user growth depends entirely on the Quick Ratio: (new users + resurrected users) / churned users.
 
+new users, churn and resurrection
+
+MEASURING PRODUCT HEALTH
+
+Growth, Retention, Stickiness and Engagement.
+ore set of users who care about it deeply?
+Percentage of users engaging?
+
+GROWTH
+
+Active users is the truest measure.
+Cohorts of groups in glovo?
+Total addressable market (TAM) 
+Quickly is the product growing?
+* given day is daily active users (DAU), the number of unique active users in a given week is weekly active users (WAU), and the number of unique active users in a given month is MAU.
+* D/D, W/W, M/M, Y/Y changes Understanding how the number of active users changes day-over-day 
+
+* Quick ratio of the recommender: New users, resurrected users, retained users and churned users. Between any two timestamps (t1 and t2), the change in growth = new users acquired within this time frame + users who were not active at time t1 but came back by time t2 — users who were present in time t2 but not there in time t1.
+New users/MAU
+
+RETENTION
+
+
+
+
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
-https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
+Not all sequeoia matters:
+https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
+https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
+https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
+https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
+https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
+https://medium.com/sequoia-capital/engagement-2ee11568eb88
+https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
+https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd
+https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3
+https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479
+https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83
+https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58
+https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328
+https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c
+https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e
+https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7
+https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71
+
+
+Why data science matters:
+A company’s ability to compete is now measured by how successfully it applies analytics to vast, unstructured data sets across disparate sources to drive product innovation.
