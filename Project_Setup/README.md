@@ -144,6 +144,12 @@ For example, you need about $1.4 million in annual savings from your anti-fraud 
 
 Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). That cost you $132,800. With the solution of 95 percent accuracy, you would compensate for 5 percent of 4,000 transactions (200), which is $16,600. Your gain is decreased expenses on chargebacks, and it accounts for $116,200. That’s $1,394,400 in savings each year. So, you need a solution to detect 95 suspicious transactions out of 100 (accuracy). The tool that can reach this threshold gets a green light.
 
+* * * * * * * *
 
-
-
+Data-Informed Product Building
+For strong products, the phases of growth usually resemble an S-curve 
+Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
+Better to have a few users who love a product
+Monthly active users (MAUs) are also new users, and there is no churn or resurrection. 
+(Note: the total number of active users for a given time period is the sum of retention, resurrection and new users.
+Your month-over-month net user growth depends entirely on the Quick Ratio: (new users + resurrected users) / churned users.
