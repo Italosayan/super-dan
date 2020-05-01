@@ -146,10 +146,14 @@ Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). T
 
 * * * * * * * *
 
-Data-Informed Product Building
+Data-Informed Product Building 
+
 For strong products, the phases of growth usually resemble an S-curve 
 Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
 Better to have a few users who love a product
 Monthly active users (MAUs) are also new users, and there is no churn or resurrection. 
 (Note: the total number of active users for a given time period is the sum of retention, resurrection and new users.
 Your month-over-month net user growth depends entirely on the Quick Ratio: (new users + resurrected users) / churned users.
+
+https://www.oreilly.com/radar/drivetrain-approach-data-products/
+https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
