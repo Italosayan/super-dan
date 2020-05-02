@@ -164,6 +164,9 @@ new users, churn and resurrection
 
 MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
 
+___
+
+
 Growth, Retention, Stickiness and Engagement.
 ore set of users who care about it deeply?
 Percentage of users engaging?
@@ -209,6 +212,9 @@ Engaged/power users Your most-engaged users are the most important people to tak
 
 Engagement is the most important driver of retention. Creating a framework for what drives engagement in your product will help you identify leading indicators for changes in user behavior and inform interdiction techniques.
 
+___
+
+
 DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- [Article 3](https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a)
 
 One metric:  For Facebook, it is active users; for WhatsApp, it is number of sends; for eBay, it is gross merchandise; for PayPal, it is total payment volume.
@@ -243,6 +249,9 @@ Set different goals for different time frames. Choose a long-term, aspirational 
 
 Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 80 percent chance of achieving. These goals are attainable, and hitting them will motivate the team. However, they will not help the team stretch and perform at a higher level. Therefore, it’s also important to set 50–50 goals, which you have only a 50 percent chance of achieving. While these goals are more challenging, they are also far more satisfying to reach. Whatever you do, don’t “sandbag” by setting only goals you can easily achieve. Failing to set the bar high can lead to complacency on the team and a decline in the product. If you find you always reach or exceed your 80–20 or especially your 50–50 goals, it’s likely you have set your sights too low.
 
+___
+
+
 FRAMEWORKS FOR PRODUCT SUCCESS --- [Article 4](https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57)
 
 Requirements of good projects:
@@ -263,6 +272,9 @@ Tips for building frameworks:
 * Know the outcome
 * Identify building blocks
 * Create a formula
+
+___
+
 
 LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
 
