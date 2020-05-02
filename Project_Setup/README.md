@@ -326,6 +326,10 @@ The more a user engages with a product, the more sticky it becomes for them, and
 
 ![Engagement Model](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/engagement_model.png)
  
+___
+
+## ENGAGEMENT --- [Article 7](https://medium.com/sequoia-capital/engagement-2ee11568eb88)
+
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
