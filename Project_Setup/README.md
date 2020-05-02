@@ -148,7 +148,7 @@ Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). T
 
 Data-Informed Product Building 
 
-EVOLUTION OF A PRODUCT --- Article 1
+EVOLUTION OF A PRODUCT --- [Article 1](https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179)
 
 For strong products, the phases of growth usually resemble an S-curve 
 Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
@@ -159,7 +159,7 @@ Your month-over-month net user growth depends entirely on the Quick Ratio: (new 
 
 new users, churn and resurrection
 
-MEASURING PRODUCT HEALTH --- Article 2
+MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
 
 Growth, Retention, Stickiness and Engagement.
 ore set of users who care about it deeply?
@@ -186,6 +186,8 @@ RETENTION
 * Set of users who install a product on a given day, week or month and seeing what percentage of them return 
 * The D1 retention rate is D1/D0, the fraction of your cohort retained for one day. (D0 is the number of installers in a cohort, and D1 is the number in that cohort who still use the product after one day.)
 
+![Retention](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-05-02%20at%2007.24.53.png)
+
 ENGAGEMENT
 
 EBay connects sellers to buyers. In this model, you can increase engagement by focusing on the quality of the inventory available, the quantity of unique listings, the relevance of items shown to the buyer, the value of the listings, connecting the right content to the right buyer at the right time, simplifying the buying process, building trust at every step of the experience, etc. Optimizing each part of the funnel should increase overall engagement.
@@ -204,7 +206,7 @@ Engaged/power users Your most-engaged users are the most important people to tak
 
 Engagement is the most important driver of retention. Creating a framework for what drives engagement in your product will help you identify leading indicators for changes in user behavior and inform interdiction techniques.
 
-DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- Article 3
+DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- [Article 3](https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a)
 
 One metric:  For Facebook, it is active users; for WhatsApp, it is number of sends; for eBay, it is gross merchandise; for PayPal, it is total payment volume.
 
@@ -238,7 +240,7 @@ Set different goals for different time frames. Choose a long-term, aspirational 
 
 Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 80 percent chance of achieving. These goals are attainable, and hitting them will motivate the team. However, they will not help the team stretch and perform at a higher level. Therefore, it’s also important to set 50–50 goals, which you have only a 50 percent chance of achieving. While these goals are more challenging, they are also far more satisfying to reach. Whatever you do, don’t “sandbag” by setting only goals you can easily achieve. Failing to set the bar high can lead to complacency on the team and a decline in the product. If you find you always reach or exceed your 80–20 or especially your 50–50 goals, it’s likely you have set your sights too low.
 
-FRAMEWORKS FOR PRODUCT SUCCESS --- Article 4
+FRAMEWORKS FOR PRODUCT SUCCESS --- [Article 4](https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57)
 
 Requirements of good projects:
 Product-market fit, positive unit economics, and the ability to scale and grow.
