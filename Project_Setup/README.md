@@ -300,13 +300,17 @@ Defining key north star metrics and goals for products; creating a scalable data
    *  We discuss how to grow sustainably here and show that it depends on two key factors: product-market fit and positive net growth. Retention is the best way to measure product-market fit and by far the best lever for product growth. Without retention, a growing product will eventually be left with no users.
    * Engagement is the most important driver of both retention and sustainable growth.
    
-   
+___
+
+## ENGAGEMENT DRIVES STICKINESS DRIVES RETENTION DRIVES GROWTH --- [Article 6](https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00)
+
+
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
 3. [x] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
 4. [x] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
-5. [ ] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
+5. [x] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
 6. [ ] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
 7. [ ] https://medium.com/sequoia-capital/engagement-2ee11568eb88
 8. [ ] https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
