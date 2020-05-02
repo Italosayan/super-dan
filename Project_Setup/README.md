@@ -204,15 +204,46 @@ Engaged/power users Your most-engaged users are the most important people to tak
 
 Engagement is the most important driver of retention. Creating a framework for what drives engagement in your product will help you identify leading indicators for changes in user behavior and inform interdiction techniques.
 
-Defining Product Success: Metrics and Goals --- Article 3
+DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- Article 3
 
+One metric:  For Facebook, it is active users; for WhatsApp, it is number of sends; for eBay, it is gross merchandise; for PayPal, it is total payment volume.
+
+Avoid ratios. If click-through rate is what you really care about, see if you can instead measure the number of clicks. However, this isn’t a hard-and-fast rule; there are many examples of companies that successfully used a ratio as the “metric that matters.”
+
+Help your team define success.
+
+Exchange rate between metrics
+
+Avoid vanity and non-actionable metrics. For example, the number of likes your company gets on social media generally isn’t correlated with business results or customer success.
+
+When choosing between multiple metrics, pick the simplest measurable metric you can move. For example, if your number of advertisers is correlated with your revenue, and the number of advertisers is easier to measure and move, choose the number of advertisers. You can always establish an exchange rate to determine the impact from one metric to another. Likewise, if you are ultimately interested in a metric that has a low sample size or takes a long time to measure, consider instead choosing a correlated metric to measure.
+
+Pick the metric that most closely represents the usage of your product. For a company like Facebook and Instagram, for example, the single most important metric is active users. To measure growth at such a company, we could pick one of several active user metrics, such as daily, weekly or monthly active users (DAU, WAU or MAU), all of which are typically correlated. Choose based on the expected usage of the product. For example, if you expect the product to be used once per day or more, select DAU as your top-level metric. If instead you think the product will be used only on a weekly basis (e.g., when searching for specific restaurants, businesses, etc.), then choose WAU. One of these three — DAU, WAU or MAU — is a top-line metric for most consumer companies.
+
+Choose a simple metric that connects to your drivers. Let’s say you are looking to increase new user acquisitions. You send emails to potential customers, and a fraction of them visit your landing page. A smaller group of users then sign up, and an even smaller group become active users. From these numbers, we can create a simple framework to think about the problem of user activation (as seen below). You can increase the total number of users who activate by increasing any of the four terms above. For example, if you see the largest drop-off among people who visit the site but do not sign up, it may make sense to set the percentage of site visitors who then sign up as your metric to move.
+
+Consider counter-metrics if needed. In the eBay example above, useful counter-metrics include the number of unique items sold and unique inventory listed.
+
+Product or business aspirations: Most long-term goals are based on the company’s mission. For example, if your company is in the video space, you might aspire to have the fastest-growing share of time spent on video. If you want to achieve that goal in x years, you can then break it into chunks to determine the growth you’ll need over the next y months in order to stay on track.
+
+Product metrics: If your product has been around for a while, you can do a “bottom-up” forecasting exercise to determine your goal for your top-line metric over a given period of time. For example, a forecast of MAUs could consider historical data on seasonality, platform, country, penetration and product changes. 
+
+New products: If your product is completely new, it will be useful to look at external benchmarks and set “top-down” goals. 
+
+Setting goals:
+
+Pick goals that are time-bound. Set a time frame, such as hitting the goal by the beginning of Q1 or the end of the year. You cannot hold people accountable to a goal that isn’t time-bound.
+
+Set different goals for different time frames. Choose a long-term, aspirational goal that aligns with your vision and mission for the company, as well as more tangible, short-term goals needed to reach that point. How you frame the short-term goals should depend on how your product team operates, as well as on the time frames over which you evaluate business results. For example, some companies operate on a quarterly cycle, while others run on a half-yearly or even yearly cadence. Your goals should reflect these different time frames, and your team should execute primarily on the short-term goals.
+
+Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 80 percent chance of achieving. These goals are attainable, and hitting them will motivate the team. However, they will not help the team stretch and perform at a higher level. Therefore, it’s also important to set 50–50 goals, which you have only a 50 percent chance of achieving. While these goals are more challenging, they are also far more satisfying to reach. Whatever you do, don’t “sandbag” by setting only goals you can easily achieve. Failing to set the bar high can lead to complacency on the team and a decline in the product. If you find you always reach or exceed your 80–20 or especially your 50–50 goals, it’s likely you have set your sights too low.
 
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
-3. [ ] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
+3. [x] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
 4. [ ] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
 5. [ ] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
 6. [ ] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
