@@ -251,6 +251,10 @@ Facebook has 3 factors: growth, engagement and monetization.
 
 ![Facebook Model](https://github.com/Italosayan/super_dan/blob/master/Screenshot%202020-05-02%20at%2020.04.54.png)
 
+From funnel to formula:
+
+
+
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
