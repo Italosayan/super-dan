@@ -231,3 +231,6 @@ Not all sequeoia matters:
 
 Why data science matters:
 A company’s ability to compete is now measured by how successfully it applies analytics to vast, unstructured data sets across disparate sources to drive product innovation.
+
+Douglas Eck, a Principal Scientist at Google AI, made the transition from academia in 2010. Since then, he has talked about an important mental shift that needs to occur during the leap — one that took him several years to achieve.
+In the words of Eck, “The main mental flip is to put in a lot of energy to understand the problem without assuming the research skills you have will matter at all. Some people lead with a research solution. And sometimes an honest solution doesn’t really need AI.”
