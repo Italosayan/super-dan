@@ -306,14 +306,31 @@ ___
 
 ![Engagement Machine](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/engagement_model.png)
 
+###### GROWTH: number of users relative to the total addressable market — and with respect to the balance between new user acquisition, churn and resurrection.
 
+###### RETENTION: the measure of people who tried the product and liked it enough to return.
+
+> percentage of users who take a given action such as logging in or sending a message within a certain period of time following sign-up.
+
+> dollars spent within a certain period of time after the user’s first spend
+
+###### Stickiness is about them returning of their own volition
+
+> For example, Facebook is sticky because of users’ urge to share, and because of their curiosity about other people’s lives.
+> Lness This is the number of days visited in a given time frame. Number of days visited per week 
+
+###### Engagement: Sessions
+
+Engagement(Sessions, actions) drives Stickiness(Lness)
+The more a user engages with a product, the more sticky it becomes for them, and the more likely they are to retain.
+ 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
 3. [x] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
 4. [x] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
 5. [x] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
-6. [ ] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
+6. [x] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
 7. [ ] https://medium.com/sequoia-capital/engagement-2ee11568eb88
 8. [ ] https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
 9. [ ] https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd
