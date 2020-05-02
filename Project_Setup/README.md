@@ -238,6 +238,17 @@ Set different goals for different time frames. Choose a long-term, aspirational 
 
 Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 80 percent chance of achieving. These goals are attainable, and hitting them will motivate the team. However, they will not help the team stretch and perform at a higher level. Therefore, it’s also important to set 50–50 goals, which you have only a 50 percent chance of achieving. While these goals are more challenging, they are also far more satisfying to reach. Whatever you do, don’t “sandbag” by setting only goals you can easily achieve. Failing to set the bar high can lead to complacency on the team and a decline in the product. If you find you always reach or exceed your 80–20 or especially your 50–50 goals, it’s likely you have set your sights too low.
 
+FRAMEWORKS FOR PRODUCT SUCCESS --- Article 4
+
+Requirements of good projects:
+Product-market fit, positive unit economics, and the ability to scale and grow.
+
+Positive unit economics require careful attention to the fundamental financial building blocks of the business.
+
+Facebook has 3 factors: growth, engagement and monetization.
+
+
+
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
