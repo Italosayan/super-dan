@@ -260,6 +260,10 @@ Tips for building frameworks:
 * Know the outcome
 * Identify building blocks
 * Create a formula
+
+LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
+
+
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
