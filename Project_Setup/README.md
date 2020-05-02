@@ -179,8 +179,12 @@ New users/MAU
 
 RETENTION
 
+* When you are starting out, always build your product for this set of users, focusing on the use case that matters most to them.
+* Creating a “magical moment” in which users first “get” the product 
 
-
+* Once you have created the magical moment, study how users are retained. The retention tipping point is different for different products; in Facebook’s case, it was connecting to seven friends in 10 days.
+* Set of users who install a product on a given day, week or month and seeing what percentage of them return 
+* The D1 retention rate is D1/D0, the fraction of your cohort retained for one day. (D0 is the number of installers in a cohort, and D1 is the number in that cohort who still use the product after one day.)
 
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
