@@ -147,6 +147,9 @@ Triggered analysis with treatments design to isolate the causal effect of specif
 experiment design
 https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-04-29%20at%2012.54.57.png
 
+“Our success at Amazon is a function of how many experiments we do per year, per month, per week, per day” — Jeff Bezos
+
+“One of the things I’m most proud of that is really key to our success is this testing framework … At any given point in time, there isn’t just one version of Facebook running. There are probably 10,000.” — Mark Zuckerberg
 
 ********
 # Amazon paper: Managing ml projects.
@@ -285,7 +288,19 @@ ___
 
 ## LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
 
+Context:
+![Analytics](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/framework_analytics.png)
 
+Defining key north star metrics and goals for products; creating a scalable data-informed organizational structure; and deeply understanding how to drive sustainable growth, retention, stickiness, engagement and monetization for products
+
+* Goals and Metrics: Metrics encapsulate vision and mission. Goals connect vision and mission with strategy
+* Organizational structure comes from the formula.
+* Product level:
+   * Product over time
+   *  We discuss how to grow sustainably here and show that it depends on two key factors: product-market fit and positive net growth. Retention is the best way to measure product-market fit and by far the best lever for product growth. Without retention, a growing product will eventually be left with no users.
+   * Engagement is the most important driver of both retention and sustainable growth.
+   
+   
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
