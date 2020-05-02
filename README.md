@@ -111,45 +111,6 @@ Experimentation:
 Production:
 * Metaflow
 * Sagemaker
-
-
-Data Science Workflow
-1. Planning & Project setup
-    * Define Business Goal: Benefit
-        * Complex heuristics
-        * Look for places where cheap prediction can help
-        * Where are humans writing rules?
-    * Define Goal: Cost
-        * Data availability: How to acquire it?
-        * Labeling expensive?
-        * How costly are wrong predictions?
-        * How easy to solve?
-    * Choosing a metric:
-        * Define recall and precision in domain
-            * Precision: How many of the recommended wines are good?
-            * Recall: How many of the good wines are recommended?
-        * Do we have a threshold in any of the metrics?
-            * Example: recall > 0.6 and the choose the one with the highest precision
-    * Requirements:
-        * Realtime(Inference Pipeline) or Batch(Batch Transform)?
-        * Inference time. Train time.
-        * Baselines: Human performance.
-    * Evaluation:
-        * A/B Test Design
-        * Tracking
-
-2. Data collection & labeling
-    * EDA
-    * Domain knowledge
-    * SQL like crazy
-
-3. Training and debugging
-    * Keep the first model simple and get the infrastructure right
-    * Model of increasing complexity
-    * Interpretable
-    
-4. Evaluation
-    * Metric definition
     
 5. Deployment
     * AWS Sagemaker
