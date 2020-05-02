@@ -210,7 +210,7 @@ Defining Product Success: Metrics and Goals --- Article 3
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
-[X] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
+[x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 [X] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
 [ ] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
 [ ] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
