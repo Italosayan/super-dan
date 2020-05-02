@@ -1,4 +1,4 @@
-# Planning & Project setup
+# Planning & Project Setup
 
 Data Science Workflow :Iterative and hypothesis driven process.
 
@@ -60,7 +60,7 @@ https://dl.acm.org/doi/10.1145/3292500.3330744
 
 Leassons learned at booking:
 
-* INCEPTION: MACHINE LEARNING AS A SWISS KNIFE FOR PRODUCT DEVELOPMENT
+#### INCEPTION: MACHINE LEARNING AS A SWISS KNIFE FOR PRODUCT DEVELOPMENT
 
 Product team produces ideas, hypotheses, business cases, etc
 Booking project examples:
@@ -78,16 +78,16 @@ Concretely, in our analysis we found that on average each semantic model generat
 -Content Augmentation:  augmentation is about enriching an existing entity using data from many others. 
    *"Great Value Today" icons simplify this process by highlight- ing properties offering an outstanding value for the price  they are asking. Also: price trends to help the user
 
-* "MODELING: OFFLINE MODEL PERFORMANCE IS JUST A HEALTH CHECK!":
+#### "MODELING: OFFLINE MODEL PERFORMANCE IS JUST A HEALTH CHECK!":
 Offline model performance metrics are only a health check, to make sure the algorithm does what we want to.
 
 Click Through Rate because we know that CTR has a strong correlation or even causation with Conversion Rate, the business metric we really care about in this case. But as models get better and better, they might end up “just driving clicks”, without any actual effect on conversion. Over-optimizing proxies leads to distracting the user away from their goal.
 
-* MODELING: BEFORE SOLVING A PROBLEM, DESIGN IT
+#### MODELING: BEFORE SOLVING A PROBLEM, DESIGN IT
 
 Problem Construction Process, qualitative aspects of a model (like diversity, transparency, adapt- ability, etc.), experiment design and latency. As an example consider a recommender system that predicts the rating a user would give to an accommodation. Minimizing RMSE looks like a reasonable approach. After a few successful iterations we hypothesize that the model is lacking diversity, so we create a challenger model that although still minimizes RMSE, somehow produces higher diversity. It is likely that this new model has a higher RMSE, but as long as it succeeds at increasing diversity and gives a reasonable RMSE, it will be used to test the hypothesis “diversity matters”. Inconclusive re- sults might point to adjustments of the model or experiment design, to make sure we give the hypothesis a fair chance. Negative results will likely reject the concept. Positive results on the other hand, will encourage diversity related changes, not only in the model but also in the User Interface, and even the product as a whole.
 
-Problem setup:
+###### Problem setup:
 
 The point(s) at which the prediction needs to be made are often given, which fixes the feature space universe, yet the target variable and the observation space are not always given and they need to be carefully constructed. 
 
@@ -108,10 +108,10 @@ Diagnosing selection bias is straightforward: consider a sample of the natural o
 
 Correcting for this type of bias is not obvious. Techniques like Inverse Propensity Weighting [11] and Doubly Robust [4] are helpful in some cases, but they require at least one extra model to build (the propensity model). Other approaches that have been applied successfully but not systematically are methods from the PU-Learning [9] and Semi Supervised Learning fields.
 
-* DEPLOYMENT: TIME IS MONEY:
+#### DEPLOYMENT: TIME IS MONEY:
  Lattency is its own thing. Maybe more important than any business metric
  
-* MONITORING: UNSUPERVISED RED FLAGS
+#### MONITORING: UNSUPERVISED RED FLAGS
  
 what can we say about the quality of a model by just looking at the predictions it makes when serving?
 The method is based on the Response Distribution Chart (RDC), which is simply a histogram of the output of the model. The simple observation that the RDC of an ideal model should have one peak at 0 and one peak at 1 (with heights given by the class proportion) allows us to characterize typical patterns that signal potential issues in the model, a few examples are:
@@ -121,7 +121,7 @@ The method is based on the Response Distribution Chart (RDC), which is simply a 
 • Differenceindistributionsbetweentrainingandservingdata may indicate concept drift, feature drift, bias in the training set, or other forms of training-serving skew.
 • Smooth bimodal distributions with one clear stable point are signs of a model that successfully distinguishes two classes
 
-* EVALUATION: EXPERIMENT DESIGN SOPHISTICATION PAYS OFF
+#### EVALUATION: EXPERIMENT DESIGN SOPHISTICATION PAYS OFF
 
 Experiment desing is also its own thing.
 
@@ -134,7 +134,7 @@ https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202
 ********
 # Amazon paper: Managing ml projects.
 
-Assesing Economic Value
+##### Assesing Economic Value
 
 The main parameter that will help you further in terms of ROI calculations of an ML project is the accuracy of the system that you need to match your expected gains. You see, any ML algorithm has the accuracy metric, which defines how precise the predictions (we told you to memorize this term) are. The accuracy you look for must enable the gains that you expect. This technique is called the impact of error costs assessment.
 
