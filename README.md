@@ -201,6 +201,7 @@ Articles:
 * https://www.fast.ai/2020/01/07/data-questionnaire/
 * https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf
 * http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+* https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Tools to explore:
 * https://pycaret.org/
