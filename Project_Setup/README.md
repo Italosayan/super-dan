@@ -323,6 +323,8 @@ ___
 
 Engagement(Sessions, actions) drives Stickiness(Lness)
 The more a user engages with a product, the more sticky it becomes for them, and the more likely they are to retain.
+
+![Engagement Model](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/engagement_model.png)
  
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
