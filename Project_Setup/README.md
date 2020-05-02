@@ -1,4 +1,4 @@
-Planning & Project setup
+# Planning & Project setup
 
 Data Science Workflow :Iterative and hypothesis driven process.
 
@@ -32,7 +32,8 @@ https://www.jeremyjordan.me/ml-requirements/amp/
 
 ********
 
-ML in production doc
+# ML in production doc
+
 DataScienceProductManagement&Process
 
 Here are 5 steps you can take to ensure that your ML efforts are properly aligned with the business outcomes you wish to achieve.
@@ -54,7 +55,7 @@ Architecture and simple model provides baseline metrics and behavior to compare 
 
 ********
 
-Bookings paper:
+# Bookings paper:
 https://dl.acm.org/doi/10.1145/3292500.3330744
 
 Leassons learned at booking:
@@ -131,7 +132,7 @@ https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202
 
 
 ********
-Amazon paper: Managing ml projects.
+# Amazon paper: Managing ml projects.
 
 Assesing Economic Value
 
@@ -143,9 +144,9 @@ Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). T
 
 * * * * * * * *
 
-Data-Informed Product Building 
+# Data-Informed Product Building 
 
-EVOLUTION OF A PRODUCT --- [Article 1](https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179)
+## EVOLUTION OF A PRODUCT --- [Article 1](https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179)
 
 For strong products, the phases of growth usually resemble an S-curve 
 Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
@@ -158,13 +159,13 @@ new users, churn and resurrection
 
 ___
 
-MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
+## MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
 
 Growth, Retention, Stickiness and Engagement.
 ore set of users who care about it deeply?
 Percentage of users engaging?
 
-GROWTH
+### GROWTH
 
 Active users is the truest measure.
 Cohorts of groups in glovo?
@@ -176,7 +177,7 @@ Quickly is the product growing?
 * Quick ratio of the recommender: New users, resurrected users, retained users and churned users. Between any two timestamps (t1 and t2), the change in growth = new users acquired within this time frame + users who were not active at time t1 but came back by time t2 — users who were present in time t2 but not there in time t1.
 New users/MAU
 
-RETENTION
+### RETENTION
 
 * When you are starting out, always build your product for this set of users, focusing on the use case that matters most to them.
 * Creating a “magical moment” in which users first “get” the product 
@@ -187,7 +188,7 @@ RETENTION
 
 ![Retention](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-05-02%20at%2007.24.53.png)
 
-ENGAGEMENT
+### ENGAGEMENT
 
 EBay connects sellers to buyers. In this model, you can increase engagement by focusing on the quality of the inventory available, the quantity of unique listings, the relevance of items shown to the buyer, the value of the listings, connecting the right content to the right buyer at the right time, simplifying the buying process, building trust at every step of the experience, etc. Optimizing each part of the funnel should increase overall engagement.
 
@@ -196,7 +197,6 @@ Track inventory.
 Track contect consumption. How many pieces of content people consume relative to the inventory? Are some people inventory-constrained and thus unable to consume content?
 
 Consider segmenting your metrics by country, device, age, gender, phone year class, connectivity class, platform, age in product, content format (video, picture, text, etc.) and content type (social, entertainment, informational, educational, etc.).
-
 
 Leading and lagging indicators Imagine you start out using a product multiple times per day (multiple sessions) and spending a lot of time with it. Over time, you start getting bored with the product and your use drops off — but you are still an engaged user in many ways, visiting the product many times per week and more than twenty times per month. At this point, DAU, WAU and MAU have not yet changed.
 
@@ -207,8 +207,7 @@ Engagement is the most important driver of retention. Creating a framework for w
 
 ___
 
-
-DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- [Article 3](https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a)
+## DEFINING PRODUCT SUCCESS: METRICS AND GOALS --- [Article 3](https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a)
 
 One metric:  For Facebook, it is active users; for WhatsApp, it is number of sends; for eBay, it is gross merchandise; for PayPal, it is total payment volume.
 
@@ -244,7 +243,7 @@ Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 
 
 ___
 
-FRAMEWORKS FOR PRODUCT SUCCESS --- [Article 4](https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57)
+## FRAMEWORKS FOR PRODUCT SUCCESS --- [Article 4](https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57)
 
 Requirements of good projects:
 Product-market fit, positive unit economics, and the ability to scale and grow.
@@ -267,7 +266,7 @@ Tips for building frameworks:
 
 ___
 
-LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
+## LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
 
 
 Not all sequeoia matters:
@@ -289,6 +288,8 @@ Not all sequeoia matters:
 16. [ ] https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e
 17. [ ] https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7
 18. [ ] https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71
+
+___
 
 Why data science matters:
 A company’s ability to compete is now measured by how successfully it applies analytics to vast, unstructured data sets across disparate sources to drive product innovation.
