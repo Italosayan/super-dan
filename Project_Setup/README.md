@@ -162,9 +162,9 @@ Your month-over-month net user growth depends entirely on the Quick Ratio: (new 
 
 new users, churn and resurrection
 
-MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
-
 ___
+
+MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
 
 
 Growth, Retention, Stickiness and Engagement.
