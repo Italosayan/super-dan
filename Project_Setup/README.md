@@ -304,8 +304,6 @@ ___
 
 ## ENGAGEMENT DRIVES STICKINESS DRIVES RETENTION DRIVES GROWTH --- [Article 6](https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00)
 
-![Engagement Machine](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/engagement_model.png)
-
 ###### GROWTH: number of users relative to the total addressable market — and with respect to the balance between new user acquisition, churn and resurrection.
 
 ###### RETENTION: the measure of people who tried the product and liked it enough to return.
