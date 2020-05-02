@@ -1,8 +1,8 @@
 # Planning & Project Setup
 
-Data Science Workflow :Iterative and hypothesis driven process.
+Data Science Workflow: Iterative and hypothesis driven process.
 
-hypothesis-model-experiment cycle
+Hypothesis-Model-Experiment Cycle
 
 https://www.jeremyjordan.me/ml-requirements/amp/
 
