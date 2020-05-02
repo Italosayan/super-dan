@@ -304,6 +304,8 @@ ___
 
 ## ENGAGEMENT DRIVES STICKINESS DRIVES RETENTION DRIVES GROWTH --- [Article 6](https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00)
 
+![Engagement Machine](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/engagement_model.png)
+
 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
