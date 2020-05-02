@@ -30,12 +30,6 @@ https://www.jeremyjordan.me/ml-requirements/amp/
         * A/B Test Design
         * Tracking
 
-Articles:
-* https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
-* https://www.fast.ai/2020/01/07/data-questionnaire/
-* https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf
-* http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
-
 ********
 
 ML in production doc
@@ -166,7 +160,6 @@ ___
 
 MEASURING PRODUCT HEALTH ---[Article 2](https://medium.com/sequoia-capital/measuring-product-health-626b2186cece)	
 
-
 Growth, Retention, Stickiness and Engagement.
 ore set of users who care about it deeply?
 Percentage of users engaging?
@@ -251,7 +244,6 @@ Set two goals: an 80–20 and a 50–50. 80–20 goals are the ones you have an 
 
 ___
 
-
 FRAMEWORKS FOR PRODUCT SUCCESS --- [Article 4](https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57)
 
 Requirements of good projects:
@@ -275,11 +267,8 @@ Tips for building frameworks:
 
 ___
 
-
 LEVERAGING DATA TO BUILD CONSUMER PRODUCTS --- [Article 5](https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8)
 
-
-https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
