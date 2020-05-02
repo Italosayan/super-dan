@@ -252,16 +252,21 @@ Facebook has 3 factors: growth, engagement and monetization.
 ![Facebook Model](https://github.com/Italosayan/super_dan/blob/master/Screenshot%202020-05-02%20at%2020.04.54.png)
 
 From funnel to formula:
+![Funnel formula](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/1_ZHMq-fOV2K_BIYiYIDO7og.png)
 
+Tips for building frameworks: 
 
-
+* Understand the phenomenon and build the right model
+* Know the outcome
+* Identify building blocks
+* Create a formula
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
 2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
 3. [x] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
-4. [ ] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
+4. [x] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
 5. [ ] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
 6. [ ] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
 7. [ ] https://medium.com/sequoia-capital/engagement-2ee11568eb88
