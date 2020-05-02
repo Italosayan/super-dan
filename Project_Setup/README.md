@@ -327,6 +327,41 @@ The more a user engages with a product, the more sticky it becomes for them, and
 ___
 
 ## ENGAGEMENT --- [Article 7](https://medium.com/sequoia-capital/engagement-2ee11568eb88)
+___
+
+## ENGAGEMENT --- [Article 8](https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017)
+___
+
+## ENGAGEMENT --- [Article 9](https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd)
+___
+
+## ENGAGEMENT --- [Article 10](https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3)
+___
+
+## ENGAGEMENT --- [Article 11](https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479)
+___
+
+## ENGAGEMENT --- [Article 12](https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83)
+___
+
+## ENGAGEMENT --- [Article 13](https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58)
+___
+
+## ENGAGEMENT --- [Article 14](https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328)
+___
+
+## ENGAGEMENT --- [Article 15](https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c)
+___
+
+## ENGAGEMENT --- [Article 16](https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e)
+___
+
+## ENGAGEMENT --- [Article 17](https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7)
+___
+
+## ENGAGEMENT --- [Article 18](https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71)
+
+
 
 Not all sequeoia matters:
 1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
