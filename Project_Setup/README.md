@@ -148,7 +148,7 @@ Before you had to pay chargebacks for 40 percent of fraudulent orders (1,600). T
 
 Data-Informed Product Building 
 
-EVOLUTION OF A PRODUCT
+EVOLUTION OF A PRODUCT --- Article 1
 
 For strong products, the phases of growth usually resemble an S-curve 
 Consumer businesses tend to proceed through these phases far more quickly than enterprise businesses
@@ -159,7 +159,7 @@ Your month-over-month net user growth depends entirely on the Quick Ratio: (new 
 
 new users, churn and resurrection
 
-MEASURING PRODUCT HEALTH
+MEASURING PRODUCT HEALTH --- Article 2
 
 Growth, Retention, Stickiness and Engagement.
 ore set of users who care about it deeply?
@@ -186,26 +186,48 @@ RETENTION
 * Set of users who install a product on a given day, week or month and seeing what percentage of them return 
 * The D1 retention rate is D1/D0, the fraction of your cohort retained for one day. (D0 is the number of installers in a cohort, and D1 is the number in that cohort who still use the product after one day.)
 
+ENGAGEMENT
+
+EBay connects sellers to buyers. In this model, you can increase engagement by focusing on the quality of the inventory available, the quantity of unique listings, the relevance of items shown to the buyer, the value of the listings, connecting the right content to the right buyer at the right time, simplifying the buying process, building trust at every step of the experience, etc. Optimizing each part of the funnel should increase overall engagement.
+
+Number of sessions Number of sessions in a given day is another good indicator of whether your product is engaging. An increase in this metric is also the earliest indicator of whether you are achieving product-market fit.
+Track inventory. 
+Track contect consumption. How many pieces of content people consume relative to the inventory? Are some people inventory-constrained and thus unable to consume content?
+
+Consider segmenting your metrics by country, device, age, gender, phone year class, connectivity class, platform, age in product, content format (video, picture, text, etc.) and content type (social, entertainment, informational, educational, etc.).
+
+
+Leading and lagging indicators Imagine you start out using a product multiple times per day (multiple sessions) and spending a lot of time with it. Over time, you start getting bored with the product and your use drops off — but you are still an engaged user in many ways, visiting the product many times per week and more than twenty times per month. At this point, DAU, WAU and MAU have not yet changed.
+
+Engaged/power users Your most-engaged users are the most important people to take care of. Keeping them happy is not really a growth concern, as they are not likely to churn. However, as mentioned in the discussion of retention above, it is ideal to target your product toward core users by making the experience easy for them and delighting them. Many of the metrics defined in this post can and should be segmented for the most-engaged users. Is the number of engaged users growing? Is their number of sessions and amount of time spent increasing? Are less-engaged users becoming more engaged? How many friends do these “power users” have? How much content do they produce? What features of the product do they use? Answers to questions like these can help build great experiences for your most-engaged group.
+
+
+Engagement is the most important driver of retention. Creating a framework for what drives engagement in your product will help you identify leading indicators for changes in user behavior and inform interdiction techniques.
+
+Defining Product Success: Metrics and Goals --- Article 3
+
+
 https://www.oreilly.com/radar/drivetrain-approach-data-products/
 
 Not all sequeoia matters:
-https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
-https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
-https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
-https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
-https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
-https://medium.com/sequoia-capital/engagement-2ee11568eb88
-https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
-https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd
-https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3
-https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479
-https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83
-https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58
-https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328
-https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c
-https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e
-https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7
-https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71
+[X] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
+[X] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
+[ ] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
+[ ] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
+[ ] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
+[ ] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
+[ ] https://medium.com/sequoia-capital/engagement-2ee11568eb88
+[ ] https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
+[ ] https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd
+[ ] https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3
+[ ] https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479
+[ ] https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83
+[ ] https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58
+[ ] https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328
+[ ] https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c
+[ ] https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e
+[ ] https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7
+[ ] https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71
 
 
 Why data science matters:
