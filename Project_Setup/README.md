@@ -36,6 +36,8 @@ Articles:
 * https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf
 * http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
 
+********
+
 ML in production doc
 DataScienceProductManagement&Process
 
@@ -56,6 +58,7 @@ Baseline measure of performance. This baseline lets you judge the rate of return
 5. Deploy an MVP quickly and begin iterating immediately
 Architecture and simple model provides baseline metrics and behavior to compare against, and a reliable pipeline gives you the ability to test more complex models.
 
+********
 
 Bookings paper:
 https://dl.acm.org/doi/10.1145/3292500.3330744
