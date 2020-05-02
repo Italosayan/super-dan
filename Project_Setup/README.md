@@ -29,7 +29,24 @@ https://www.jeremyjordan.me/ml-requirements/amp/
     * Evaluation:
         * A/B Test Design
         * Tracking
+        
+2. Data collection & labeling
+    * EDA
+    * Domain knowledge
+    * SQL like crazy
 
+3. Training and debugging
+    * Keep the first model simple and get the infrastructure right
+    * Model of increasing complexity
+    * Interpretable
+    
+4. Evaluation
+    * Metric definition
+    
+5. Deployment. 
+
+6. Monitoring.
+    
 ********
 
 # ML in production doc
