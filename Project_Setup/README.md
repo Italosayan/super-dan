@@ -199,6 +199,8 @@ New users/MAU
 
 ### RETENTION
 
+* Retention is measured relative to two factors: time frames and events.
+
 * When you are starting out, always build your product for this set of users, focusing on the use case that matters most to them.
 * Creating a “magical moment” in which users first “get” the product 
 
@@ -207,6 +209,16 @@ New users/MAU
 * The D1 retention rate is D1/D0, the fraction of your cohort retained for one day. (D0 is the number of installers in a cohort, and D1 is the number in that cohort who still use the product after one day.)
 
 ![Retention](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-05-02%20at%2007.24.53.png)
+
+An e-commerce or travel product might expect users to come back once per quarter
+
+Measuring retention against these expected time frames is key; to look at monthly retention for a product with a natural weekly frequency, for example, would lead to an inaccurate account of product health.
+
+In addition to product-level retention, you may also want to define feature-level retention, where the event is defined as using a particular feature of the product. For example, Amazon could measure how its Wishlist feature is used to help prioritize feature development and the product roadmap.
+
+Diagonal features are usually a result of product feature releases, news or other events that affect overall usage. 
+
+Studying the drop-offs in users at each stage will help you understand the efficacy of your acquisition channels (paid and unpaid) and identify any problems in sign-up and onboarding flow. For example, a significant drop-off between sign-up and account confirmation suggests an issue with confirmation email delivery. As another example, when the team at Poncho, a weather chatbot, studied and revised the number of questions in their sign-up flow, their seven-day retention increased from 60 percent to 80 percent. To further isolate points of significant drop-off, filter your data by channel, device, etc. Removing these sources of friction helps new users arrive at the “magical moment” as quickly as possible, which will dramatically improve retention in this group.
 
 ### ENGAGEMENT
 
@@ -424,3 +436,13 @@ A company’s ability to compete is now measured by how successfully it applies 
 
 Douglas Eck, a Principal Scientist at Google AI, made the transition from academia in 2010. Since then, he has talked about an important mental shift that needs to occur during the leap — one that took him several years to achieve.
 In the words of Eck, “The main mental flip is to put in a lot of energy to understand the problem without assuming the research skills you have will matter at all. Some people lead with a research solution. And sometimes an honest solution doesn’t really need AI.”
+
+## RETENTION
+
+DIAGONAL RETENTION INDICATES PRODUCT CHANGE
+"super users"
+Benchmark your product 
+
+[x] https://medium.com/sequoia-capital/retention-7dbc7aa9e988
+
+[ ] Summary again. How it applies to glovo?
