@@ -381,6 +381,25 @@ ___
 ## RECOMMENDATIONS --- [Article 16](https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e)
 
 Recommendations
+
+INVENTORY
+
+Total inventory available to each user
+Gather implicit and explicit signals about your users
+
+Inventory available: The more overall inventory available via recommendations, search and browse, the more likely it is users will find something they want.
+
+Consumption of available inventory: Know how much a user is consuming relative to their available recommended inventory.
+
+Number of connections: The more a user is connected to relevant content, the more likely they are to consume content.
+
+SIGNALS
+
+
+PREDICTIONS AND RELEVANCE
+
+![Consumption](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-05-03%20at%2019.22.48.png)
+
 ___
 
 ## Rankings --- [Article 17](https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7)
