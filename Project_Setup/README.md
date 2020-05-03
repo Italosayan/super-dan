@@ -327,28 +327,39 @@ The more a user engages with a product, the more sticky it becomes for them, and
 ___
 
 ## ENGAGEMENT --- [Article 7](https://medium.com/sequoia-capital/engagement-2ee11568eb88)
+
+Number of sessions(Engagement) drives stickines -> Number of sessions per week (L5+/L7) -> drives Retencion: D1/D0  D0 is the number of installers in a cohort, and D1 is the number *in that cohort* who still use the product after one day.
+
+Product types: News Feeds, Professionally Generated Content, Marketplaces and Messaging
+
 ___
 
-## ENGAGEMENT --- [Article 8](https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017)
+## DRIVING ENGAGEMENT ON NEWS FEED --- [Article 8](https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017)
+
+RANK, CONSUME, FEEDBACK, PRODUCE, INVENTORY
 ___
 
-## ENGAGEMENT --- [Article 9](https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd)
-___
+## NEWS FEED RANKING DRIVES ENGAGEMENT --- [Article 11](https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479)
 
-## ENGAGEMENT --- [Article 10](https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3)
-___
+Amount of inventory available
+Consumption of available inventory
+Percent of users who are inventory-constrained
 
-## ENGAGEMENT --- [Article 11](https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479)
+It’s helpful to understand and develop exchange rates for these tradeoffs (for example, users who watch Y number of videos are X percent less likely to produce their own content.
+ 
+Ranking algorithms can help predict whether and how a user will interact with a post, but not whether that interaction truly serves your mission.
+
+look for measurable proxy metrics that correlate to the survey-type metrics within your product.
 ___
 
 ## ENGAGEMENT --- [Article 12](https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83)
+
+App startup time
+Number of views
+Time spent/session
+Number of sessions
 ___
 
-## ENGAGEMENT --- [Article 13](https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58)
-___
-
-## ENGAGEMENT --- [Article 14](https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328)
-___
 
 ## ENGAGEMENT --- [Article 15](https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c)
 ___
