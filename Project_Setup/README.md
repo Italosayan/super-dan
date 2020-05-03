@@ -403,6 +403,10 @@ PREDICTIONS AND RELEVANCE
 ___
 
 ## Rankings --- [Article 17](https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7)
+
+Search
+Order of content served
+
 ___
 
 ## ENGAGEMENT --- [Article 18](https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71)
