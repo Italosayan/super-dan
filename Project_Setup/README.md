@@ -361,13 +361,29 @@ ___
 ___
 
 
-## ENGAGEMENT --- [Article 15](https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c)
+## Driving Engagement on Professional Content --- [Article 15](https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c)
+
+Consumption surface — including but not limited to the search, recommendation, and activity feed.
+
+CONTENT PRODUCTION
+Content diversity is key to retention.
+Lifespan of content influences (Do people get bored of restaurants?)
+
+New content per week
+Total content available
+Estimated life of content(Bored of resturants)?
+Value of content
+Quality of content
+Searches for unavailable content
+
 ___
 
-## ENGAGEMENT --- [Article 16](https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e)
+## RECOMMENDATIONS --- [Article 16](https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e)
+
+Recommendations
 ___
 
-## ENGAGEMENT --- [Article 17](https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7)
+## Rankings --- [Article 17](https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7)
 ___
 
 ## ENGAGEMENT --- [Article 18](https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71)
