@@ -395,6 +395,7 @@ Number of connections: The more a user is connected to relevant content, the mor
 
 SIGNALS
 
+![Signals](https://github.com/Italosayan/super_dan/blob/master/Project_Setup/Screenshot%202020-05-03%20at%2019.26.49.png)
 
 PREDICTIONS AND RELEVANCE
 
@@ -416,27 +417,6 @@ Restaurant is supply
 The most important criteria for the demand side is generally pricing, and due to competitive pressure, margins are generally reduced. 
 
 Great brand and loyalty 
-
-Not all sequeoia matters:
-1. [x] https://medium.com/sequoia-capital/evolution-of-a-product-223ce35f2179
-2. [x] https://medium.com/sequoia-capital/measuring-product-health-626b2186cece
-3. [x] https://medium.com/sequoia-capital/defining-product-success-metrics-and-goals-57e9cca29f9a
-4. [x] https://medium.com/sequoia-capital/frameworks-for-product-success-aff3f29c2c57
-5. [x] https://medium.com/sequoia-capital/leveraging-data-to-build-consumer-products-fe9ea1a059b8
-6. [x] https://medium.com/sequoia-capital/engagement-drives-stickiness-drives-retention-drives-growth-3a6ac53a7a00
-7. [x] https://medium.com/sequoia-capital/engagement-2ee11568eb88
-8. [x] https://medium.com/sequoia-capital/engagement-part-i-introduction-to-activity-feeds-975543cd7017
-9. [x] https://medium.com/sequoia-capital/engagement-part-2-content-production-4f2445899dbd
-10. [x] https://medium.com/sequoia-capital/engagement-part-iii-connections-and-inventory-de90533528b3
-11. [x] https://medium.com/sequoia-capital/engagement-part-iv-activity-feed-ranking-40d786b9d479
-12. [x] https://medium.com/sequoia-capital/engagement-part-v-consumption-d8ee03452a83
-13. [x] https://medium.com/sequoia-capital/engagement-part-vi-feedback-a703146d9f58
-14. [x] https://medium.com/sequoia-capital/engagement-part-vii-summary-and-product-implications-3b9e2044b328
-15. [x] https://medium.com/sequoia-capital/engagement-professional-content-part-1-content-production-e5310810847c
-16. [x] https://medium.com/sequoia-capital/engagement-professional-content-part-2-recommendations-5a8d6bf3bb8e
-17. [x] https://medium.com/sequoia-capital/engagement-professional-content-part-3-content-consumption-ab5858df19c7
-18. [x] https://medium.com/sequoia-capital/two-sided-marketplaces-and-engagement-ded7d5dcfe71
-
 ___
 
 Why data science matters:
