@@ -381,12 +381,12 @@ CONTENT PRODUCTION
 Content diversity is key to retention.
 Lifespan of content influences (Do people get bored of restaurants?)
 
-New content per week
-Total content available
-Estimated life of content(Bored of resturants)?
-Value of content
-Quality of content
-Searches for unavailable content
+* New content per week
+* Total content available
+* Estimated life of content(Bored of resturants)?
+* Value of content
+* Quality of content
+* Searches for unavailable content
 
 ___
 
@@ -396,14 +396,14 @@ Recommendations
 
 INVENTORY
 
-Total inventory available to each user
+* Total inventory available to each user
 Gather implicit and explicit signals about your users
 
-Inventory available: The more overall inventory available via recommendations, search and browse, the more likely it is users will find something they want.
+* Inventory available: The more overall inventory available via recommendations, search and browse, the more likely it is users will find something they want.
 
-Consumption of available inventory: Know how much a user is consuming relative to their available recommended inventory.
+* Consumption of available inventory: Know how much a user is consuming relative to their available recommended inventory.
 
-Number of connections: The more a user is connected to relevant content, the more likely they are to consume content.
+* Number of connections: The more a user is connected to relevant content, the more likely they are to consume content.
 
 SIGNALS
 
