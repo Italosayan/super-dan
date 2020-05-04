@@ -156,6 +156,7 @@ Production:
 
 6. Monitoring
     * Datadog
+    * Computer performance monitoring
 
 Articles:
 * https://medium.com/sequoia-capital/sequoia-data-science-8a76098035a4
