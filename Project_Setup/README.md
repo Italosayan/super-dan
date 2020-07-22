@@ -9,6 +9,7 @@ https://www.jeremyjordan.me/ml-requirements/amp/
 1. Planning & Project setup
     * Define Business Goal: Benefit
         * Complex heuristics
+        * Write down assumptions
         * Look for places where cheap prediction can help
         * Where are humans writing rules?
     * Define Goal: Cost
