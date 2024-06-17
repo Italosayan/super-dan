@@ -67,7 +67,7 @@ regex==2020.4.4
 requests==2.23.0
 ruamel.yaml==0.16.10
 ruamel.yaml.clib==0.2.0
-scikit-learn==0.22.2.post1
+scikit-learn==1.5.0
 scipy==1.4.1
 Send2Trash==1.5.0
 sentry-sdk==0.14.3
